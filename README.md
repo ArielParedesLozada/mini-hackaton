@@ -14,9 +14,13 @@ cambio de manos.
 
 | | |
 |---|---|
-| Bot de Telegram | `@________` *(pendiente de publicar)* |
-| Dashboard web | `https://________` *(pendiente de publicar)* |
+| Bot de Telegram | [@conferencia_grok_bot](https://t.me/conferencia_grok_bot) |
+| Dashboard web | `http://localhost:5173` — se levanta con `npm run dev` (ver abajo) |
 | Repositorio | este |
+
+Puesta en marcha paso a paso y prueba de humo:
+[`docs/puesta-en-marcha.md`](docs/puesta-en-marcha.md). Guion de la
+demostración en vivo: [`docs/guion-demo.md`](docs/guion-demo.md).
 
 ## Arquitectura
 

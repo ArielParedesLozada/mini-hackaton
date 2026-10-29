@@ -5,6 +5,8 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Vite only exposes VITE_*; server tokens in this directory stay on the server.
+  envDir: resolve(import.meta.dirname, "../../../secrets"),
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

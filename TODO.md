@@ -6,6 +6,8 @@ Existe una pagina web con cursos disponibles
 
 Un boto de IA de Telegram con un agente que pueda hacer hablar acerca de los cursos y dar informacion de los cursos
 
+Debe scrapear info acerca del siguiente URL: "https://ctt-talleresfisei.uta.edu.ec/course.php"
+
 ## QUE ENTREGAR
 
 - EL bot de Telegram
