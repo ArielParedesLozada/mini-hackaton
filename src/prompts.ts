@@ -9,18 +9,24 @@
 /**
  * Modelo principal y cadena de respaldo.
  *
- * Verificado contra la API key del proyecto el 2026-10-29: la familia `gemini-2.5-*`
- * devuelve 404 ("no longer available to new users") y `gemini-3.8-flash` devuelve
- * 503 por saturación. Estos dos responden. Ante 429, 503 o un error de red,
- * reintenta una vez con el principal y luego pasa al siguiente de la lista.
+ * Estado medido contra esta API key el 2026-10-29, en este orden de descarte:
+ *   - familia `gemini-2.5-*`  → 404, retirada para cuentas nuevas
+ *   - `gemini-3.8-flash`      → 503, saturación sostenida
+ *   - `gemini-3-flash-preview`→ 429 RESOURCE_EXHAUSTED, cuota diaria agotada (20/día)
+ *   - `gemini-3.1-flash-lite` → responde
  *
- * La cadena no es decorativa: midiendo contra esta key, el nivel gratuito empieza
- * a devolver 429 alrededor de la docena de llamadas en pocos minutos, y un jurado
- * probando el bot en vivo llega ahí sin esfuerzo. Cada modelo tiene su propia
- * cuota, así que cambiar de modelo es lo que salva el turno.
+ * Por eso Lite es el principal y no el respaldo: con Flash arriba, cada mensaje
+ * pagaba dos llamadas fallidas y una espera de 1,5 s antes de llegar al modelo
+ * que sí contesta — tres segundos de lag visible en cada turno de la demo. Flash
+ * queda como respaldo para cuando la cuota diaria se reinicie.
+ *
+ * La cadena no es decorativa: el nivel gratuito también corta por minuto,
+ * alrededor de la docena de llamadas, y un jurado probando el bot en vivo llega
+ * ahí sin esfuerzo. Cada modelo tiene su propia cuota, así que cambiar de modelo
+ * es lo que salva el turno.
  */
-export const MODEL = 'gemini-3-flash-preview';
-export const FALLBACK_MODELS = ['gemini-3.1-flash-lite'] as const;
+export const MODEL = 'gemini-3.1-flash-lite';
+export const FALLBACK_MODELS = ['gemini-3-flash-preview'] as const;
 
 export const SYSTEM_PROMPT = `Eres Dani, asesor académico del CTT-FISEI, el Centro de Transferencia Tecnológica de la Facultad de Ingeniería en Sistemas, Electrónica e Industrial de la Universidad Técnica de Ambato. Atiendes por Telegram a personas que escriben preguntando por los cursos.
 
