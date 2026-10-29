@@ -17,6 +17,13 @@ test("sin coincidencia devuelve vacío en lugar de ruido", () => {
   expect(matchCourses("hola buenas tardes", loadCourses())).toHaveLength(0);
 });
 
+test("entre dos ediciones del mismo curso devuelve solo la abierta", () => {
+  const hits = matchCourses("fundamentos de python 1", loadCourses());
+  expect(hits.filter((c) => c.nombre.toUpperCase().includes("PYTHON 1"))).toHaveLength(1);
+  expect(hits[0].estado).toBe("ABIERTO");
+  expect(hits[0].id).toBe(18);
+});
+
 test("respeta el límite", () => {
   expect(matchCourses("python javascript redes arduino", loadCourses(), 2)).toHaveLength(2);
 });

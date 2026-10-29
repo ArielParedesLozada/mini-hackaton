@@ -18,6 +18,8 @@ export type Course = {
   fechaCurso: string | null;
   periodoInscripcion: string | null;
   requisitos: string | null;
+  tipoCapacitacion: string | null;
+  cupo: string | null;
   modulos: { titulo: string; detalle: string }[];
   url: string;
 };
@@ -55,6 +57,8 @@ export function buildDetailBlock(course: Course): string {
     `Descripción:\n${course.descripcion}`,
     `Objetivos:\n${objetivos}`,
     `Requisitos: ${course.requisitos ?? "no indicados"}`,
+    `Tipo de capacitación: ${course.tipoCapacitacion ?? "no indicado"}`,
+    `Cupo: ${course.cupo ?? "no indicado"}`,
     `Módulos:\n${modulos}`,
     `URL: ${course.url}`,
   ].join("\n");

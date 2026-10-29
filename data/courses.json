@@ -5,8 +5,12 @@
     "estado": "CERRADO",
     "horas": 32,
     "modalidad": "Virtual auto-didacta (Self-paced)",
-    "descripcion": "El curso Fundamentos de Python 1 de Cisco NetAcad es una introducción esencial al mundo de la programación, diseñado para enseñar los conceptos básicos de Python de forma práctica y accesible. A través de actividades interactivas y ejercicios basados en problemas reales, los estudiantes desarrollarán habilidades fundamentales en lógica de programación, estructuras de control, manejo de datos y uso de funciones básicas. Este curso está dirigido tanto a principiantes como a personas interesadas en dar sus primeros pasos en el campo de la programación, proporcionando una base sólida para avanzar hacia niveles más complejos y para explorar su aplicación en áreas como redes, ciberseguridad e inteligencia artificial.",
+    "descripcion": "Python Essentials 1 ha sido desarrollado por el OpenEDG Python Institute, y se\n ofrece a todo el público, para mejorar, desarrollar y apoyar las carreras\n profesionales en programación Python y tecnologías relacionadas.\n El curso cubre los fundamentos de la programación en Python, así como\n conceptos y técnicas generales de programación informática. El curso familiariza\n a los alumnos con el enfoque procedimental de la programación.",
     "objetivos": [
+      "Explorar la programación informática y las carreras que ofrece.",
+      "Desarrollar habilidades de codificación con Python.",
+      "Aprender sobre tipos de datos, variables, operaciones de E/S, flujos de control y funciones.",
+      "Diseñar, desarrollar, probar y depurar programas simples de Python.",
       "Comprender los conceptos básicos de programación aprendiendo a usar Python para resolver problemas mediante algoritmos y estructuras lógicas.",
       "Escribir y ejecutar programas simples en Python aplicando elementos clave como variables, operadores y estructuras condicionales para automatizar tareas.",
       "Utilizar estructuras de datos básicas como listas y diccionarios para almacenar, organizar y manipular información de manera eficiente.",
@@ -16,12 +20,14 @@
     ],
     "precios": {
       "estudianteUta": 30,
-      "docenteUta": 40,
-      "publico": 50
+      "docenteUta": 35,
+      "publico": 40
     },
     "fechaCurso": "Del 01 de marzo al 30 de marzo de 2025",
     "periodoInscripcion": "15 de febrero al 02 de marzo de 2025",
     "requisitos": null,
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación.",
+    "cupo": "Ilimitado",
     "modulos": [
       {
         "titulo": "Módulo 1: Introducción a Python y programación informática",
@@ -50,6 +56,12 @@
     "modalidad": "Curso virtual auto-didacta (Self-paced)",
     "descripcion": "Fundamentos de Python 2 de Cisco NetAcad es un curso avanzado que amplía\nlos conocimientos adquiridos en \"Fundamentos de Python 1\", profundizando en\nconceptos intermedios y avanzados de programación con Python. Este curso\nexplora temas como la manipulación de excepciones, el uso avanzado de\nestructuras de datos, la programación orientada a objetos (POO) y el manejo\neficiente de archivos. Con un enfoque práctico y orientado a problemas reales,\nlos estudiantes adquirirán habilidades que les permitirán desarrollar programas más\ncomplejos y robustos, preparándolos para roles técnicos y para aplicaciones\navanzadas de Python en redes, ciberseguridad y análisis de datos.",
     "objetivos": [
+      "Explicar las características de los datos masivos y los efectos del crecimiento de los datos.",
+      "Examinar el rol de los datos en la Inteligencia Artificial y el Aprendizaje Automático",
+      "Realizar la recopilación inicial de datos y la investigación utilizando una hoja de cálculo.",
+      "Utilizar funciones y fórmulas de Excel para transformar datos para su análisis.",
+      "Obtener datos apropiados para el análisis estadístico de los datos.",
+      "Formular una consulta estructurada para extraer y combinar datos de varias tablas.",
       "Aplicar el manejo de excepciones en programas Python para identificar y\n gestionar errores, mejorando la robustez y fiabilidad del código.",
       "Profundizar en estructuras de datos avanzadas como conjuntos y matrices\n multidimensionales para resolver problemas complejos de almacenamiento y\n procesamiento de información",
       "Diseñar programas modulares utilizando programación orientada a objetos\n (OOP), incorporando clases, objetos, herencia y encapsulación para\n desarrollar soluciones escalables.",
@@ -57,17 +69,19 @@
       "Explorar el uso de bibliotecas estándar y externas de Python para ampliar la\n funcionalidad de los programas y trabajar con tareas específicas como\n manejo de fechas, cálculos matemáticos y acceso a internet.."
     ],
     "precios": {
-      "estudianteUta": null,
-      "docenteUta": 40,
-      "publico": 50
+      "estudianteUta": 30,
+      "docenteUta": 35,
+      "publico": 40
     },
     "fechaCurso": "Del 05 de abril al 04 de mayo del 2025",
     "periodoInscripcion": "Del 15 de marzo al 07 de abril de 2025.",
     "requisitos": null,
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación con validación QR.",
+    "cupo": "Ilimitado",
     "modulos": [
       {
         "titulo": "Módulo 1: Módulos, Paquetes y PIP",
-        "detalle": "• Capítulo 1: ¿Qué es un módulo y para qué lo necesitamos?\n • Capítulo 2: Importación y uso de módulos.\n • Capítulo 3: Revisión de algunos módulos útiles de Python.\n • Capítulo 4: ¿Qué es un paquete y en qué se diferencia de un módulo?\n • Capítulo 5: Construcción y uso de paquetes\n • Capítulo 6: PIP: La navaja suiza y el mantenimiento de paquetes."
+        "detalle": "• Capítulo 1: ¿Qué es un módulo y para qué lo necesitamos?\n • Capítulo 2: Importación y uso de módulos.\n • Capítulo 3: Revisión de algunos módulos útiles de Python.\n • Capítulo 4: ¿Qué es un paquete y en qué se diferencia de un módulo?\n • Capítulo 5: Construcción y uso de paquetes\n • Capítulo 6: PIP: La navaja suiza y el mantenimiento de paquetes.\n \n o Capítulo 7: Seguridad en la Nube\n o Capítulo 8: Criptografía\n o Capítulo 9: Tecnologías y Protocolos\n o Capítulo 10: Datos de Seguridad de la Red\n o Capítulo 11: Evaluación de Alertas"
       },
       {
         "titulo": "Módulo 2: Caracteres, cadenas y excepciones avanzadas",
@@ -104,6 +118,8 @@
     "fechaCurso": "01-marzo a 31-marzo-2025.",
     "periodoInscripcion": "Del 17 de febrero al 03 de marzo de 2025.",
     "requisitos": "Ninguno",
+    "tipoCapacitacion": null,
+    "cupo": null,
     "modulos": [
       {
         "titulo": "Módulo 1:Introducción",
@@ -153,6 +169,8 @@
     "fechaCurso": "05-abril a 04-mayo-2025",
     "periodoInscripcion": "01-marzo a 08-abril-2025",
     "requisitos": "JavaScript.",
+    "tipoCapacitacion": null,
+    "cupo": null,
     "modulos": [
       {
         "titulo": "Módulo 1: Objetos sin clases",
@@ -177,7 +195,7 @@
     "id": 5,
     "nombre": "FUNDAMENTOS DE CIENCIA Y ANALÍTICA DE DATOS",
     "estado": "CERRADO",
-    "horas": 32,
+    "horas": 36,
     "modalidad": "Curso virtual auto-didacta (Self-paced)",
     "descripcion": "Este curso lleva a los estudiantes al mundo de la ciencia y analítica de datos.\nAprenderán los aspectos básicos en los campos de la ciencia de datos, el análisis\nde datos y la ingeniería de datos para comprender mejor cómo el aprendizaje\nautomático está dando forma al futuro de los negocios, los servicios de salud, la\neducación y más.\nEl curso le enseña las herramientas fundamentales de un analista de datos.\nAprenderás a transformar, organizar y visualizar datos con herramientas de hoja de\ncálculo como Excel. También aprenderá a consultar datos de una base de datos\nrelacional utilizando SQL y a mejorar sus presentaciones de datos utilizando\npotentes herramientas de inteligencia empresarial como Tableau. Al final del\ncurso, habrás dado los pasos necesarios para iniciar una cartera de análisis de\ndatos completa con un análisis del popular conjunto de datos de películas,\nmostrando tus habilidades en Excel, SQL y Tableau.",
     "objetivos": [
@@ -195,6 +213,8 @@
     "fechaCurso": "01-marzo a 30-marzo-2025",
     "periodoInscripcion": "14-febrero a 03-marzo-2025",
     "requisitos": "Nivel de inglés básico.",
+    "tipoCapacitacion": null,
+    "cupo": null,
     "modulos": [
       {
         "titulo": "Módulo 1:Introducción a la Ciencia de Datos",
@@ -227,6 +247,8 @@
     "fechaCurso": "5-abril a 18-mayo-2025",
     "periodoInscripcion": "10-marzo a 08-abril-2025",
     "requisitos": "Conocimientos básicos de ciberseguridad\nConocimientos básicos de programación\nConocimiento del idioma inglés",
+    "tipoCapacitacion": null,
+    "cupo": null,
     "modulos": [
       {
         "titulo": "Módulo 1: Introducción al hacking ético y a las pruebas de penetración",
@@ -291,6 +313,8 @@
     "fechaCurso": "19-abril a 18-mayo-2025",
     "periodoInscripcion": "20-marzo al 22-abril-2025",
     "requisitos": "Ninguno",
+    "tipoCapacitacion": null,
+    "cupo": null,
     "modulos": [
       {
         "titulo": "Módulo 1: Comunicación en un mundo conectado",
@@ -384,6 +408,8 @@
     "fechaCurso": "Del 17-mayo al 15-junio-2025",
     "periodoInscripcion": "Del 20 de abril al 20 de mayo de 2025",
     "requisitos": "Ninguno",
+    "tipoCapacitacion": "Curso con certificado digital QR",
+    "cupo": "Mínimo 15, Máximo 25",
     "modulos": [
       {
         "titulo": "Módulo 1: Introducción a la Ciberseguridad",
@@ -417,6 +443,8 @@
     "fechaCurso": "Del 31-mayo al 05-julio-2025",
     "periodoInscripcion": "Del 01 de mayo al 03 de junio de 2025",
     "requisitos": "Conocimientos básicos de ciberseguridad.\nConocimientos básicos de redes",
+    "tipoCapacitacion": "Curso MOOC - certificado digital de aprobación con validación QR",
+    "cupo": null,
     "modulos": [
       {
         "titulo": "Módulo 1: Defensa de la Red",
@@ -500,7 +528,7 @@
   {
     "id": 10,
     "nombre": "GESTIÓN DE ALMACENES Y DISTRIBUCIÓN FÍSICA",
-    "estado": "CERRADO",
+    "estado": "ABIERTO",
     "horas": 32,
     "modalidad": "Presencial",
     "descripcion": "La VINCULACIÓN con el sector productivo es una de las condiciones necesarias para promover avances en todos los campos de conocimiento. Los progresos dentro de los talleres deben dar respuesta a las necesidades propias del contexto y a la ciudadanía en general, a través de un enfoque multidisciplinar.",
@@ -517,6 +545,8 @@
     "fechaCurso": "Del 28 de septiembre al 26 de octubre de 2024",
     "periodoInscripcion": "16 de septiembre al 26 de septiembre de 2024",
     "requisitos": "Ninguno",
+    "tipoCapacitacion": "Curso presencial - certificado digital de asistencia y aprobación con validación QR",
+    "cupo": null,
     "modulos": [
       {
         "titulo": "Clase 1: Operaciones de almacén y flujo de materiales",
@@ -540,7 +570,7 @@
   {
     "id": 11,
     "nombre": "Introducción al Control Industrial.",
-    "estado": "CERRADO",
+    "estado": "ABIERTO",
     "horas": 24,
     "modalidad": "Presencial",
     "descripcion": "Este curso está orientado a que el participante adquiera conocimientos sobre\n diseño de circuitos de control que le permita realizar instalaciones en tableros con\n elementos de mando y maniobra, con criterio técnico, utilizando las herramientas\n de una manera adecuada y aplicando normas de seguridad e higiene laboral,\n además abarca los principios de electrónica básica que el estudiante requiere para\n poder interconectar los circuitos eléctricos en la creación de proyectos, con\n prácticas objetivas e incluyentes para el desarrollo de aplicaciones en el área de la\n electrónica y control.",
@@ -558,6 +588,8 @@
     "fechaCurso": "Del 15 de junio al jueves 06 de julio de 2024",
     "periodoInscripcion": "Del 10 al 13 de junio del 2024",
     "requisitos": "• No necesario ningún requisito previo",
+    "tipoCapacitacion": "Curso de seguimiento - asistencia y aprobación con certificado digital QR",
+    "cupo": "Cupos limitados",
     "modulos": [
       {
         "titulo": "- Identificación de elementos de señalización, mando y\n operación.",
@@ -613,7 +645,7 @@
   {
     "id": 12,
     "nombre": "Automatización Industrial y Programación de PLC.",
-    "estado": "CERRADO",
+    "estado": "ABIERTO",
     "horas": 32,
     "modalidad": "Presencial",
     "descripcion": "La automatización es una herramienta en constante crecimiento en las empresas\n que buscan mejorar la productividad de los procesos y la calidad de sus\n productos. Conocer los principios de la automatización es importante para todas\n las personas con formación técnica que deseen desarrollar sus habilidades en la\n industria. El presente proyecto, con un enfoque teórico-práctico, presenta los\n principios de la automatización industrial, sus elementos, niveles de\n funcionamiento en la industria, y la programación de PLCs. A través de cada tema,\n se explora la fundamentación teórica que respalda las prácticas de laboratorio\n que se realizarán.",
@@ -629,6 +661,8 @@
     "fechaCurso": "Del 01 al jueves 22 de junio de 2024",
     "periodoInscripcion": "Del 15 al 30 mayo",
     "requisitos": "• No necesario ningún requisito previo",
+    "tipoCapacitacion": "Curso de seguimiento - asistencia y aprobación con certificado digital QR",
+    "cupo": "Cupos limitados",
     "modulos": [
       {
         "titulo": "- Pirámide de la Automatización y grados de automatización.",
@@ -697,6 +731,8 @@
     "fechaCurso": "Del 07 al 30 de junio de 2025",
     "periodoInscripcion": "Del 19 de mayo al 04 de junio de 2025",
     "requisitos": "• Ninguno",
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación con validación QR",
+    "cupo": "Mínimo 15, máximo 25 participantes",
     "modulos": [
       {
         "titulo": "Clase 1:",
@@ -825,6 +861,8 @@
     "fechaCurso": "Del 07 al 30 de junio de 2025",
     "periodoInscripcion": "Del 15 de Mayo al 04 de Junio de 2025",
     "requisitos": "• Ninguno",
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación con validación QR",
+    "cupo": "Mínimo 15, máximo 20 participantes",
     "modulos": [
       {
         "titulo": "Clase 1:",
@@ -865,6 +903,8 @@
     "fechaCurso": "Del 04 al 30 de junio de 2025",
     "periodoInscripcion": "Del 14 de Mayo al 03 de Junio de 2025",
     "requisitos": "• Ninguno",
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación con validación QR",
+    "cupo": "Sin límite específico",
     "modulos": [
       {
         "titulo": "Clase 1:",
@@ -917,6 +957,8 @@
     "fechaCurso": "Del 16 de octubre de 2026 al 05 de diciembre de 2026",
     "periodoInscripcion": "Del 01 de octubre de 2026 al 15 de octubre de 2026",
     "requisitos": "Ninguno.",
+    "tipoCapacitacion": "Certificado digital de aprobación con validación QR.",
+    "cupo": "Mínimo 5, máximo 20",
     "modulos": [
       {
         "titulo": "Módulo 1:",
@@ -1010,6 +1052,8 @@
     "fechaCurso": "Del 16 de octubre de 2026 al 05 de diciembre de 2026",
     "periodoInscripcion": "Del 01 de octubre de 2026 al 15 de octubre de 2026",
     "requisitos": "Ninguno.",
+    "tipoCapacitacion": "Certificado digital de aprobación con validación QR.",
+    "cupo": "Mínimo 5, sin cupo máximo especificado",
     "modulos": [
       {
         "titulo": "Capítulo 1:",
@@ -1107,6 +1151,8 @@
     "fechaCurso": "Del 16 de octubre de 2026 al 16 de noviembre de 2026",
     "periodoInscripcion": "Del 01 de octubre de 2026 al 15 de octubre de 2026",
     "requisitos": "Ninguno.",
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación con validación QR.",
+    "cupo": "Mínimo 5, sin cupo máximo especificado",
     "modulos": [
       {
         "titulo": "Módulo 1:",
@@ -1255,6 +1301,8 @@
     "fechaCurso": "Del 14 de noviembre de 2026 al 05 de diciembre de 2026",
     "periodoInscripcion": "Del 30 de octubre de 2026 al 13 de noviembre de 2026",
     "requisitos": "Conocimientos básicos de programación y manejo de computador. No se requiere experiencia previa con IA agéntica, MCP ni GitHub Copilot.",
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación con validación QR.",
+    "cupo": "Mínimo 5, máximo 25",
     "modulos": [
       {
         "titulo": "Clase 1:",
@@ -1379,6 +1427,8 @@
     "fechaCurso": "Del 14 de noviembre de 2026 al 05 de diciembre de 2026",
     "periodoInscripcion": "Del 30 de octubre de 2026 al 13 de noviembre de 2026",
     "requisitos": "Conocimientos básicos de matemáticas y manejo general de herramientas informáticas.",
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación emitido por FISEI-UTA, con validación QR.",
+    "cupo": "Mínimo 5, máximo 30",
     "modulos": [
       {
         "titulo": "Unidad 1:",
@@ -1616,6 +1666,8 @@
     "fechaCurso": "Del 16 de noviembre de 2026 al 16 de diciembre de 2026",
     "periodoInscripcion": "Del 30 de octubre de 2026 al 15 de noviembre de 2026",
     "requisitos": "Ninguno indicado en la planificación. Se recomienda haber cursado Fundamentos de Python 1 por la progresión de contenidos.",
+    "tipoCapacitacion": "Certificado digital de asistencia y aprobación con validación QR.",
+    "cupo": "Mínimo 5, sin cupo máximo especificado",
     "modulos": [
       {
         "titulo": "Módulo 1:",

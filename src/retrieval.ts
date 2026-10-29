@@ -71,6 +71,32 @@ export function matchCourses(text: string, courses: Course[], limit = 2): Course
     if (score > 0) scored.push({ course, score });
   }
 
-  scored.sort((a, b) => b.score - a.score);
-  return scored.slice(0, limit).map((s) => s.course);
+  const deduped: { course: Course; score: number }[] = [];
+  for (const entry of scored) {
+    const twin = deduped.find((other) => sameEdition(other.course.nombre, entry.course.nombre));
+    if (!twin) {
+      deduped.push(entry);
+      continue;
+    }
+    const preferNew =
+      (entry.course.estado === "ABIERTO" && twin.course.estado !== "ABIERTO") ||
+      (entry.course.estado === twin.course.estado && entry.score > twin.score);
+    if (preferNew) {
+      twin.course = entry.course;
+      twin.score = entry.score;
+    }
+  }
+
+  deduped.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    if (a.course.estado === b.course.estado) return 0;
+    return a.course.estado === "ABIERTO" ? -1 : 1;
+  });
+  return deduped.slice(0, limit).map((s) => s.course);
+}
+
+function sameEdition(a: string, b: string): boolean {
+  const left = normalize(a);
+  const right = normalize(b);
+  return left.startsWith(right) || right.startsWith(left);
 }
