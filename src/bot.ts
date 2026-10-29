@@ -20,7 +20,7 @@ async function handleText(ctx: Context, text: string, persistAs: string): Promis
   if (conversation.ai_paused) return;
 
   await ctx.replyWithChatAction("typing");
-  const history = await getRecentMessages(conversation.id, 10);
+  const history = (await getRecentMessages(conversation.id, 10)).slice(0, -1);
   const turn = await runAgentTurn({
     userMessage: text,
     history,
@@ -32,9 +32,19 @@ async function handleText(ctx: Context, text: string, persistAs: string): Promis
     estado: turn.estado,
     resumen: turn.resumen,
     alerta_inyeccion: turn.intento_manipulacion,
-    ai_paused: turn.estado === "frustrado" ? true : undefined,
+    ai_paused:
+      turn.estado === "frustrado" && conversation.estado !== "frustrado" ? true : undefined,
   });
 }
+
+bot.command("start", async (ctx) => {
+  await ctx.reply(
+    "¡Hola! Soy Dani, asesor del CTT-FISEI de la Universidad Técnica de " +
+      "Ambato.\n\nTe puedo orientar sobre nuestros cursos y certificaciones: " +
+      "qué vas a aprender, cuánto duran, cuándo empiezan y cuánto cuestan.\n\n" +
+      "¿Qué te gustaría aprender, o en qué área trabajas?",
+  );
+});
 
 bot.on("message:text", async (ctx) => {
   await handleText(ctx, ctx.message.text, ctx.message.text);

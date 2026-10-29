@@ -43,10 +43,6 @@ export async function appendMessage(
     content,
   });
   if (error) throw new Error("No se pudo guardar el mensaje");
-  await supabase
-    .from("conversations")
-    .update({ last_message_at: new Date().toISOString() })
-    .eq("id", conversationId);
 }
 
 export async function getRecentMessages(

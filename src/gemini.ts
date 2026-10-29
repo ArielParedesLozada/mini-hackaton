@@ -118,21 +118,25 @@ export async function runAgentTurn(args: {
 }
 
 export async function transcribeAudio(audio: Buffer, mimeType: string): Promise<string> {
-  try {
-    const response = await ai.models.generateContent({
-      model: MODEL,
-      contents: [
-        {
-          role: "user",
-          parts: [
-            { text: TRANSCRIPTION_PROMPT },
-            { inlineData: { mimeType, data: audio.toString("base64") } },
-          ],
-        },
+  const contents = [
+    {
+      role: "user" as const,
+      parts: [
+        { text: TRANSCRIPTION_PROMPT },
+        { inlineData: { mimeType, data: audio.toString("base64") } },
       ],
-    });
-    return (response.text ?? "").trim();
-  } catch {
-    return "";
+    },
+  ];
+  const models = [MODEL, ...FALLBACK_MODELS];
+  for (const model of models) {
+    try {
+      const response = await ai.models.generateContent({ model, contents });
+      const text = (response.text ?? "").trim();
+      if (text) return text;
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.error("transcribeAudio", model, message);
+    }
   }
+  return "";
 }
