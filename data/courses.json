@@ -1,0 +1,1727 @@
+[
+  {
+    "id": 1,
+    "nombre": "FUNDAMENTOS DE PYTHON 1",
+    "estado": "CERRADO",
+    "horas": 32,
+    "modalidad": "Virtual auto-didacta (Self-paced)",
+    "descripcion": "El curso Fundamentos de Python 1 de Cisco NetAcad es una introducción esencial al mundo de la programación, diseñado para enseñar los conceptos básicos de Python de forma práctica y accesible. A través de actividades interactivas y ejercicios basados en problemas reales, los estudiantes desarrollarán habilidades fundamentales en lógica de programación, estructuras de control, manejo de datos y uso de funciones básicas. Este curso está dirigido tanto a principiantes como a personas interesadas en dar sus primeros pasos en el campo de la programación, proporcionando una base sólida para avanzar hacia niveles más complejos y para explorar su aplicación en áreas como redes, ciberseguridad e inteligencia artificial.",
+    "objetivos": [
+      "Comprender los conceptos básicos de programación aprendiendo a usar Python para resolver problemas mediante algoritmos y estructuras lógicas.",
+      "Escribir y ejecutar programas simples en Python aplicando elementos clave como variables, operadores y estructuras condicionales para automatizar tareas.",
+      "Utilizar estructuras de datos básicas como listas y diccionarios para almacenar, organizar y manipular información de manera eficiente.",
+      "Dominar el uso de bucles e iteraciones para gestionar flujos de trabajo repetitivos en los programas.",
+      "Implementar funciones y trabajar con módulos para estructurar código reutilizable y organizar proyectos de forma profesional.",
+      "Prepararse para el uso de Python en contextos prácticos explorando aplicaciones básicas en áreas como el análisis de datos y la automatización de procesos."
+    ],
+    "precios": {
+      "estudianteUta": 30,
+      "docenteUta": 40,
+      "publico": 50
+    },
+    "fechaCurso": "Del 01 de marzo al 30 de marzo de 2025",
+    "periodoInscripcion": "15 de febrero al 02 de marzo de 2025",
+    "requisitos": null,
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Introducción a Python y programación informática",
+        "detalle": "o Introducción a la programación\n o Introducción a Python\n o Evaluación"
+      },
+      {
+        "titulo": "Módulo 2: Tipos de datos, variables, operaciones básicas de entradasalida y operadores básicos",
+        "detalle": "o El programa “Hola, Mundo”\n o Literales de Python\n o Operadores – herramientas de manipulación de datos\n o Variables\n o Comentarios\n o Interacción con el usuario\n o Evaluación"
+      },
+      {
+        "titulo": "Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y procesamiento de listas, operaciones lógicas y bit a bit",
+        "detalle": "o Toma de decisiones en Python\n o Bucles en Python\n o Operadores lógicos y operacionales bit a bit en Python.\n o Listas\n o Operaciones con listas\n o Aplicaciones avanzadas de listas\n o Evaluación"
+      },
+      {
+        "titulo": "Módulo 4: Funciones, tuplas, diccionarios, excepciones y procesamiento de datos.",
+        "detalle": "o Funciones\n o Comunicación de las funciones con su entorno\n o Resultados de funciones\n o Alcances en Python"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso1.php"
+  },
+  {
+    "id": 2,
+    "nombre": "FUNDAMENTOS DE PYTHON 2",
+    "estado": "CERRADO",
+    "horas": 40,
+    "modalidad": "Curso virtual auto-didacta (Self-paced)",
+    "descripcion": "Fundamentos de Python 2 de Cisco NetAcad es un curso avanzado que amplía\nlos conocimientos adquiridos en \"Fundamentos de Python 1\", profundizando en\nconceptos intermedios y avanzados de programación con Python. Este curso\nexplora temas como la manipulación de excepciones, el uso avanzado de\nestructuras de datos, la programación orientada a objetos (POO) y el manejo\neficiente de archivos. Con un enfoque práctico y orientado a problemas reales,\nlos estudiantes adquirirán habilidades que les permitirán desarrollar programas más\ncomplejos y robustos, preparándolos para roles técnicos y para aplicaciones\navanzadas de Python en redes, ciberseguridad y análisis de datos.",
+    "objetivos": [
+      "Aplicar el manejo de excepciones en programas Python para identificar y\n gestionar errores, mejorando la robustez y fiabilidad del código.",
+      "Profundizar en estructuras de datos avanzadas como conjuntos y matrices\n multidimensionales para resolver problemas complejos de almacenamiento y\n procesamiento de información",
+      "Diseñar programas modulares utilizando programación orientada a objetos\n (OOP), incorporando clases, objetos, herencia y encapsulación para\n desarrollar soluciones escalables.",
+      "Manejar y procesar archivos en diferentes formatos para la lectura, escritura y\n manipulación de datos persistentes en aplicaciones.",
+      "Explorar el uso de bibliotecas estándar y externas de Python para ampliar la\n funcionalidad de los programas y trabajar con tareas específicas como\n manejo de fechas, cálculos matemáticos y acceso a internet.."
+    ],
+    "precios": {
+      "estudianteUta": null,
+      "docenteUta": 40,
+      "publico": 50
+    },
+    "fechaCurso": "Del 05 de abril al 04 de mayo del 2025",
+    "periodoInscripcion": "Del 15 de marzo al 07 de abril de 2025.",
+    "requisitos": null,
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Módulos, Paquetes y PIP",
+        "detalle": "• Capítulo 1: ¿Qué es un módulo y para qué lo necesitamos?\n • Capítulo 2: Importación y uso de módulos.\n • Capítulo 3: Revisión de algunos módulos útiles de Python.\n • Capítulo 4: ¿Qué es un paquete y en qué se diferencia de un módulo?\n • Capítulo 5: Construcción y uso de paquetes\n • Capítulo 6: PIP: La navaja suiza y el mantenimiento de paquetes."
+      },
+      {
+        "titulo": "Módulo 2: Caracteres, cadenas y excepciones avanzadas",
+        "detalle": "• Capítulo 1: Caracteres, cadenas y estándares de codificación\n • Capítulo 2: Cadenas y listas: similitudes y diferencias.\n • Capítulo 3: Métodos de listas.\n • Capítulo 4: Métodos de cadenas.\n • Capítulo 5: La forma en que Python maneja los errores en tiempo de ejecución\n • Capítulo 6: Controlar el flujo de errores usando try y except\n • Capítulo 7: La jerarquía de excepciones.\n • Capítulo 8: Evaluación."
+      },
+      {
+        "titulo": "Módulo 3: Programación orientada a objetos en Python",
+        "detalle": "• Capítulo 1: Conceptos básicos de programación orientada a objetos.\n • Capítulo 2: Del enfoque procedimental al de objetos: motivaciones y beneficios.\n • Capítulo 3: Clases, objetos, propiedades, y métodos.\n • Capítulo 4:Herencia y polimorfismo\n • Capítulo 5: Excepción como objecto."
+      },
+      {
+        "titulo": "Módulo 4: Trabajar con archivos y utilidades",
+        "detalle": "• Capítulo 1: Generadores, iteradores y cierres.\n • Capítulo 2: Trabajar con sistemas de archivos, árboles de directorios y archivos\n • Capítulo 3: Módulos seleccionados de la biblioteca estándar de Python (os, date, datetime, calendar)."
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso2.php"
+  },
+  {
+    "id": 3,
+    "nombre": "JAVASCRIPT ESSENTIALS 1",
+    "estado": "CERRADO",
+    "horas": 40,
+    "modalidad": "Virtual - eLearning",
+    "descripcion": "El curso JavaScript Essentials 1 es una introducción integral al mundo de la\nprogramación utilizando JavaScript, un lenguaje clave en el desarrollo de\naplicaciones web y móviles. A través de seis módulos, los estudiantes aprenderán\ndesde los fundamentos de la programación, como variables, tipos de datos y\noperadores, hasta conceptos más avanzados como estructuras de control,\nfunciones, manejo de errores y depuración de código.\nEl curso está diseñado para principiantes, sin requerir experiencia previa en\nprogramación, y utiliza herramientas prácticas como entornos de desarrollo en\nlínea y navegadores web para ejecutar y probar código. Al finalizar, los estudiantes\nno solo dominarán los fundamentos de JavaScript, sino que también estarán\npreparados para aplicar las mejores prácticas de programación y resolver\nproblemas de forma algorítmica.",
+    "objetivos": [
+      "Aprender los fundamentos de programación, como el manejo de variables,\ntipos de datos, estructuras de control y operadores en JavaScript.",
+      "Diseñar y desarrollar aplicaciones que interactúen con los usuarios mediante\ncuadros de diálogo (alert, confirm, prompt) y manipulación básica del DOM",
+      "Integrar JavaScript en aplicaciones web, entender su interacción con HTML y\nCSS, y explorar su uso en aplicaciones del lado cliente."
+    ],
+    "precios": {
+      "estudianteUta": 30,
+      "docenteUta": 40,
+      "publico": 50
+    },
+    "fechaCurso": "01-marzo a 31-marzo-2025.",
+    "periodoInscripcion": "Del 17 de febrero al 03 de marzo de 2025.",
+    "requisitos": "Ninguno",
+    "modulos": [
+      {
+        "titulo": "Módulo 1:Introducción",
+        "detalle": "Introducción a JavaScript y a la programación de\n computadoras: conceptos básicos de JS, entorno de\n desarrollo, primer programa en JavaScript (Hola, Mundo)"
+      },
+      {
+        "titulo": "Módulo 2: Variables y Tipos",
+        "detalle": "Variables, tipos de datos primitivos y complejos, conversión de tipos, comentarios"
+      },
+      {
+        "titulo": "Módulo 3: Operadores",
+        "detalle": "Operadores aritméticos, lógicos, de comparación y de\n asignación; interacción con el usuario mediante cuadros de\n diálogo (alert, confirm, prompt)."
+      },
+      {
+        "titulo": "Módulo 4: Control de Flujo",
+        "detalle": "Ejecución condicional (if-else, switch-case); bucles (for,\n while, do-while, for-in, for-of); manejo de interrupciones en\n bucles (break, continue)."
+      },
+      {
+        "titulo": "Módulo 5: Funciones",
+        "detalle": "Declaración y uso de funciones, variables locales, parámetros, retorno de valores, funciones como miembros\n de primera clase, funciones flecha, recursividad, y\n callbacks."
+      },
+      {
+        "titulo": "Módulo 6: Manejo de Errores",
+        "detalle": "Manejo de errores y excepciones (try-catch, throw);\n depuración de código (análisis paso a paso, medición de\n tiempos de ejecución)"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso3.php"
+  },
+  {
+    "id": 4,
+    "nombre": "JAVASCRIPT ESSENTIALS 2",
+    "estado": "CERRADO",
+    "horas": 50,
+    "modalidad": "Curso virtual auto-didacta (Self-paced)",
+    "descripcion": "JavaScript Essentials 2 es un curso avanzado diseñado para profundizar en las\ncapacidades de programación con JavaScript, abordando conceptos\navanzados como la programación orientada a objetos (OOP), técnicas\nfuncionales y asincrónicas. A través de un enfoque práctico, los estudiantes\naprenderán a analizar y resolver problemas del mundo real, trabajar con\nestructuras de datos complejas y desarrollar aplicaciones más eficientes y\nescalables. Este curso prepara a los participantes construir un portafolio profesional\nque demuestre habilidades avanzadas en el desarrollo de aplicaciones con\nJavaScript",
+    "objetivos": [
+      "Comprender e implementar clases y programación basada en clases para\nestructurar aplicaciones siguiendo principios modernos de diseño orientado a\nobjetos.",
+      "Explorar y utilizar objetos integrados y estructuras avanzadas como Map, Set y\nJSON para optimizar el manejo de datos y mejorar el rendimiento de las\naplicaciones",
+      "Aplicar técnicas avanzadas de programación funcional y asincrónica usando\nclosures, funciones de orden superior, generadores y promesas para gestionar\ntareas complejas y asincrónicas.",
+      "Desarrollar habilidades analíticas y prácticas en resolución de problemas\naplicando conceptos de JavaScript en proyectos prácticos para construir un\nportafolio competitivo"
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "05-abril a 04-mayo-2025",
+    "periodoInscripcion": "01-marzo a 08-abril-2025",
+    "requisitos": "JavaScript.",
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Objetos sin clases",
+        "detalle": "Manipulación de objetos, comparación, clonación,\nmétodos, getters/setters, prototipos y herencia."
+      },
+      {
+        "titulo": "Módulo 2: Clases y programación basada en clases",
+        "detalle": "Declaración de clases, propiedades, herencia,\nmiembros estáticos, getters y setters."
+      },
+      {
+        "titulo": "Módulo 3: Objetos integrados",
+        "detalle": "Uso de objetos como String, Date, Array, Map, Set;\nmanejo de JSON; operaciones matemáticas y expresiones regulares"
+      },
+      {
+        "titulo": "Módulo 4: Uso avanzado de funciones",
+        "detalle": "Parámetros extendidos, closures, funciones de orden\nsuperior, generadores, programación asincrónica con\ncallbacks y promesas"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso4.php"
+  },
+  {
+    "id": 5,
+    "nombre": "FUNDAMENTOS DE CIENCIA Y ANALÍTICA DE DATOS",
+    "estado": "CERRADO",
+    "horas": 32,
+    "modalidad": "Curso virtual auto-didacta (Self-paced)",
+    "descripcion": "Este curso lleva a los estudiantes al mundo de la ciencia y analítica de datos.\nAprenderán los aspectos básicos en los campos de la ciencia de datos, el análisis\nde datos y la ingeniería de datos para comprender mejor cómo el aprendizaje\nautomático está dando forma al futuro de los negocios, los servicios de salud, la\neducación y más.\nEl curso le enseña las herramientas fundamentales de un analista de datos.\nAprenderás a transformar, organizar y visualizar datos con herramientas de hoja de\ncálculo como Excel. También aprenderá a consultar datos de una base de datos\nrelacional utilizando SQL y a mejorar sus presentaciones de datos utilizando\npotentes herramientas de inteligencia empresarial como Tableau. Al final del\ncurso, habrás dado los pasos necesarios para iniciar una cartera de análisis de\ndatos completa con un análisis del popular conjunto de datos de películas,\nmostrando tus habilidades en Excel, SQL y Tableau.",
+    "objetivos": [
+      "Explicar las características de los datos masivos y los efectos del crecimiento de\nlos datos.",
+      "Examinar el rol de los datos en la Inteligencia Artificial y el Aprendizaje\nAutomático.",
+      "Realizar la recopilación inicial de datos y la investigación utilizando una hoja\nde cálculo.",
+      "Utilizar funciones y fórmulas de Excel para transformar datos para su análisis.",
+      "Obtener datos apropiados para el análisis estadístico de los datos."
+    ],
+    "precios": {
+      "estudianteUta": 30,
+      "docenteUta": 40,
+      "publico": 50
+    },
+    "fechaCurso": "01-marzo a 30-marzo-2025",
+    "periodoInscripcion": "14-febrero a 03-marzo-2025",
+    "requisitos": "Nivel de inglés básico.",
+    "modulos": [
+      {
+        "titulo": "Módulo 1:Introducción a la Ciencia de Datos",
+        "detalle": "Capítulo 1: Análisis de la Experiencia\n 1.1 ¿Qué son los Datos?\n 1.2 Los Datos nos Rodean\n 1.3 Comprensión del Negocio\n Capítulo 2: Recopilación y Almacenamiento de Datos\n 2.1 Comprendiendo los Datos Masivos\n 2.2 Comprendiendo la Administración de los Datos Masivos\n Capítulo 3: Inteligencia Artificial y Aprendizaje Automático\n 3.1 Realidad y Ficción de la IA\n 3.2 Datos Masivos y Aprendizaje Automático\n Capítulo 4: Embarcarse en su Carrera en Análisis de Datos\n 4.1 Preparándose para una Carrera en Análisis de Datos\n 4.2 Tomando los Próximos Pasos"
+      },
+      {
+        "titulo": "Módulo 2: Fundamentos de Análisis de Datos",
+        "detalle": "Capítulo 1: Proyectos de análisis de datos \n1.1 Análisis en tiempo real \n1.2 Análisis de datos en acción \n1.3 La cartera de proyectos \nCapítulo 2: Introducción a la recopilación e Investigación de\nDatos\n2.1 Herramientas para la comprensión de datos\n2.2 Conceptos y características básicos de Excel\n2.3 Utilice Funciones simples para el análisis de datos\nCapítulo 3: Preparación y limpieza de datos para análisis\n3.1 Fuentes de datos \n3.2 Datos en archivos estructurados\n3.3 Datos no estructurados\n3.4 Preparación de datos\n3.5 Preparación y limpieza de datos para el resumen del\nanálisis\nCapítulo 4: Transformación de datos con Excel \n4.1 Ordenar y filtrar datos con Excel \n4.2 Formatear y ajustar datos\n4.3 Cálculos de datos\n4.4 Transformación de datos con resumen de Excel\nCapítulo 5: Analizar los datos utilizando estadísticas\n5.1 Uso de estadísticas para interpretar datos\n5.2 Elegir la visualización adecauda para el trabajo\n5.3 Creando visualizaciones con Excel\n5.4 Abordar anomalías en los datos\n5.5 Uso de Excel para abordar problemas con los datos\n5.6 Analizar los datos utilizando el resumen estadístico\nCapítulo 6: Introducción a las Bases de Datos Relacionales y SQL\n6.1 Gestión básica de datos\n6.2 SQL\n6.3 Introducción a las bases de datos relacionales y\nresumen de SQL\nCapítulo 7: Introducción a las consultas estructuradas\n7.1 Estructuras de bases de datos relacionales \n7.2 Usar SQL con varias tablas\n7.3 Combinando funciones SQL para extraer datos\n7.4 Funciones de gestión de SQL y alternativas\nCapítulo 8: Introducción a Tableau\n8.1 Introducción a Tableau\n8.2 Crear visualizaciones en Tableau\n8.3 Paneles de control de Tableau\nCapítulo 9: Ética y sesgo en los datos\n9.1 Sesgo en el análisis de datos\n9.2 Uso ético de los datos\nCapítulo 10: Dé los siguientes pasos\n10.1 Requisitos para una cartera\n10.2 Ampliando sus habilidades analíticas"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso5.php"
+  },
+  {
+    "id": 6,
+    "nombre": "ETHICAL HACKER",
+    "estado": "CERRADO",
+    "horas": 70,
+    "modalidad": "MOOC",
+    "descripcion": "El panorama digital está evolucionando a un ritmo sin precedentes y las amenazas\ncibernéticas acechan en cada esquina. La resiliencia de la ciberseguridad en el\nmundo moderno no puede ser sólo un complemento: es una necesidad. Los\nprofesionales de seguridad ofensivos, como los piratas informáticos éticos y los\nevaluadores de penetración, pueden ayudar a descubrir de forma proactiva\namenazas desconocidas y abordarlas antes de que lo hagan los\nciberdelincuentes.\nEl curso Ethical Hacker prepara a los alumnos para descubrir vulnerabilidades de\nforma proactiva antes de que lo hagan los ciberdelincuentes. Los alumnos\ndominarán el arte de determinar el alcance, ejecutar e informar sobre las\nevaluaciones de vulnerabilidades, al tiempo que recomiendan estrategias de\nmitigación.",
+    "objetivos": [
+      "Analizar la mentalidad y las tácticas de los cibercriminales para fortalecer sus\nhabilidades defensivas.",
+      "Implementar controles de seguridad de manera más efectiva y monitorear,\nanalizar y responder a las amenazas de seguridad actuales.",
+      "Adquirir las habilidades necesarias para implementar seguridad y monitorear,\nanalizar y y responder a las amenazas de seguridad actuales"
+    ],
+    "precios": {
+      "estudianteUta": 50,
+      "docenteUta": 60,
+      "publico": 70
+    },
+    "fechaCurso": "5-abril a 18-mayo-2025",
+    "periodoInscripcion": "10-marzo a 08-abril-2025",
+    "requisitos": "Conocimientos básicos de ciberseguridad\nConocimientos básicos de programación\nConocimiento del idioma inglés",
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Introducción al hacking ético y a las pruebas de penetración",
+        "detalle": "1.1 Entendiendo el Hacking Ético y la Penetración Pruebas\n 1.2 Exploración de metodologías de pruebas de penetración\n 1.3 Construir su propio laboratorio"
+      },
+      {
+        "titulo": "Módulo 2: Planificación y alcance de una prueba de penetración Evaluación",
+        "detalle": "2.1 Comparación y contraste de los conceptos de gobernanza, riesgo y cumplimiento normativo\n 2.2 Explicar la importancia del alcance y los requisitos de la organización o del cliente\n 2.3 Demostrar una mentalidad de hacking ético manteniendo el profesionalismo y la integridad"
+      },
+      {
+        "titulo": "Módulo 3: Recopilación de información y exploración de vulnerabilidades",
+        "detalle": "3.1 Realización de un reconocimiento pasivo\n 3.2 Realización de un reconocimiento activo\n 3.3 Entender el arte de realizar escaneos de vulnerabilidades\n 3.4 Cómo analizar los resultados de la exploración de vulnerabilidades"
+      },
+      {
+        "titulo": "Módulo 4: Ataques de Ingeniería Social",
+        "detalle": "4.1 Pretexto para un acercamiento y suplantación de identidad\n 4.2 Ataques de ingeniería social\n 4.3 Ataques físicos\n 4.4 Herramientas de ingeniería social\n 4.5 Métodos de influencia"
+      },
+      {
+        "titulo": "Módulo 5: Ataques de Ingeniería Social",
+        "detalle": "5.1 Explotación de vulnerabilidades basadas en la red\n 5.2 Explotación de vulnerabilidades inalámbricas."
+      },
+      {
+        "titulo": "Módulo 6: Explotación de vulnerabilidades basadas en aplicaciones",
+        "detalle": "6.1 Visión general de los ataques basados en aplicaciones web para profesionales de seguridad y los 10 principales de OWASP\n 6.2 Cómo construir su propio laboratorio de aplicaciones web\n 6.3 Entendiendo las fallas en la lógica del negocio\n 6.4 Entender las vulnerabilidades basadas en inyección\n 6.5 Explotación de vulnerabilidades basadas en autenticación\n 6.6 Explotación de vulnerabilidades basadas en autorización\n 6.7 Descripción de vulnerabilidades de secuencias de comandos en sitios cruzados (XSS)\n 6.8 Entender la Falsificación de Peticiones en Sitios Cruzados (CSRF/XSRF)(CSRF/XSRF) y Ataques de Falsificación de Peticiones del Lado\n del Servidor\n 6.9 Entendiendo Clickjacking\n 6.10 Explotación de vulnerabilidades de inclusión de archivos\n 6.11 Explotación de prácticas de código inseguro"
+      },
+      {
+        "titulo": "Módulo 7: Seguridad en la nube, móvil e IoT",
+        "detalle": "7.1 Investigación de vectores de ataque y realización de ataques en tecnologías de nube\n 7.2 Explicación de ataques y vulnerabilidades comunes contra sistemas especializados"
+      },
+      {
+        "titulo": "Módulo 8: Realización de técnicas de post-explotación",
+        "detalle": "8.1 Creación de un punto de apoyo y mantener la persistencia después de comprometer un sistema \n 8.2 Realización de movimientos laterales, evasión de detección y enumeración"
+      },
+      {
+        "titulo": "Módulo 9:Informes y comunicación",
+        "detalle": "9.1 Comparación y contraste de los componentes importantes de los informes escritos\n 9.2 Análisis de los hallazgos y recomendar la remediación apropiada dentro de un informe\n 9.3 Explicación de la importancia de la comunicación durante el proceso de pruebas de penetración\n 9.4 Explicación de las actividades posteriores a la entrega del informe"
+      },
+      {
+        "titulo": "Módulo 10: Ataques de Ingeniería Social",
+        "detalle": "10.1 Conceptos Básicos de Scripting y Desarrollo de Software.\n 10.2 Comprensión de los Diferentes Casos de Uso de las Herramientas de Pruebas de Penetración y Análisis de Código\n Exploit."
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso6.php"
+  },
+  {
+    "id": 7,
+    "nombre": "CONCEPTOS BÁSICOS DE REDES",
+    "estado": "CERRADO",
+    "horas": 32,
+    "modalidad": "Presencial",
+    "descripcion": "Este curso cubre la base de redes y dispositivos de red, medios y protocolos.\nObservará datos que fluyen a través de una red y configurará dispositivos para\nconectarse a redes. Por último, aprenderá a usar diferentes aplicaciones y\nprotocolos de red para realizar tareas de red. El conocimiento y las habilidades\nque obtenga le pueden dar un punto de partida para encontrar una carrera\ngratificante en tecnología.",
+    "objetivos": [
+      "Comprender cómo las redes conectan el mundo, identificando los diferentes\ntipos de redes, cómo se transmiten los datos, y el impacto del ancho de banda\ny el rendimiento en la comunicación.",
+      "Adquirir conocimientos prácticos para diseñar y gestionar redes, tanto\ninalámbricas como móviles, incluyendo la creación de redes domésticas, con\nun enfoque en los componentes de la red, opciones de conectividad y\nconfiguraciones de enrutadores.",
+      "Dominar los fundamentos de la comunicación en red, incluyendo los principios\nde la comunicación, los medios de red, la capa de acceso, el protocolo de\nInternet (IPv4 e IPv6), y comprender la importancia del direccionamiento\ndinámico con DHCP, el enrutamiento entre redes, y los servicios de la capa de\naplicación."
+    ],
+    "precios": {
+      "estudianteUta": 30,
+      "docenteUta": 40,
+      "publico": 50
+    },
+    "fechaCurso": "19-abril a 18-mayo-2025",
+    "periodoInscripcion": "20-marzo al 22-abril-2025",
+    "requisitos": "Ninguno",
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Comunicación en un mundo conectado",
+        "detalle": "Tipos de red \n Transmisión de datos\n Ancho de banda y rendimiento"
+      },
+      {
+        "titulo": "Módulo 2:Componentes, tipos y conexiones de red",
+        "detalle": "Clientes y Servidores\n Componentes de la red\n Opciones de conectividad al ISP"
+      },
+      {
+        "titulo": "Módulo 3: Redes inalámbricas y móviles",
+        "detalle": "Redes inalámbricas\n Conectividad de dispositivos móviles"
+      },
+      {
+        "titulo": "Módulo 4:Crear una red domestica",
+        "detalle": "Conceptos básicos de redes domesticas\n Tecnologías de red en el hogar\n Estándares inalámbricos\n Configurar un enrutador domestico"
+      },
+      {
+        "titulo": "Módulo 5: Principios de comunicación",
+        "detalle": "Protocolo de comunicación\n Estándares de comunicación\n Modelos de comunicación de red"
+      },
+      {
+        "titulo": "Módulo 6: Medios de red",
+        "detalle": "Tipos de medios de red"
+      },
+      {
+        "titulo": "Módulo 7: La capa de acceso",
+        "detalle": "Encapsulación y la trama de Ethernet\n La capa de acceso"
+      },
+      {
+        "titulo": "Módulo 8: El protocolo de internet",
+        "detalle": "Propósito de una dirección IPv4\n La estructura de la dirección IPv4"
+      },
+      {
+        "titulo": "Módulo 9: IPv4 y segmentación de redes",
+        "detalle": "Unidifusión, difusión y multidifusión de IPv4\n Tipos de direcciones IPv4\n Segmentación de la red"
+      },
+      {
+        "titulo": "Módulo 10: Formatos y reglas de direccionamiento IPv6",
+        "detalle": "Problemas con IPv4\n Direccionamiento IPv6"
+      },
+      {
+        "titulo": "Módulo 11: Direccionamiento dinámico con DHCP",
+        "detalle": "Direccionamiento estático y dinámico\n Configuración de DHCPv4"
+      },
+      {
+        "titulo": "Módulo 12: Puertas de enlace a otras redes",
+        "detalle": "Límites de la Red\n Traducción de direcciones de red"
+      },
+      {
+        "titulo": "Módulo 13: El proceso ARP",
+        "detalle": "MAC e IP\n Contención de difusiones"
+      },
+      {
+        "titulo": "Módulo 14: Enrutamiento entre redes",
+        "detalle": "La necesidad del enrutamiento\n La tabla de enrutamiento\n Crear una LAN"
+      },
+      {
+        "titulo": "Módulo 15: TCP y UDP",
+        "detalle": "TCP y UDP\n Números de puerto"
+      },
+      {
+        "titulo": "Módulo 16: El protocolo de internet",
+        "detalle": "La relación cliente servidor\n Servicios de aplicaciones de red\n Sistema de nombres de dominio\n Clientes y servidores web\n Clientes y servidores FTP\n Terminales virtuales\n Correo electrónico y mensajería"
+      },
+      {
+        "titulo": "Módulo 17: Utilidades de prueba de red",
+        "detalle": "Comandos de solución de problemas"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso7.php"
+  },
+  {
+    "id": 8,
+    "nombre": "CIBERSEGURIDAD EN DISPOSITIVOS FINALES",
+    "estado": "CERRADO",
+    "horas": 40,
+    "modalidad": "Virtual",
+    "descripcion": "Este curso parte desde las bases de la ciberseguridad, con los conceptos básicos\n de ciberseguridad cibernética, explorando formas de estar seguro en línea, los\n diferentes tipos de malware y ataques, las medidas utilizadas por las\n organizaciones para mitigar los ataques e investigando oportunidades\n profesionales. A través de este curso, se podrán adquirir las habilidades para\n proteger la red hasta el borde, incluso hardware, software y medios, mediante la\n evaluación de la red, los sistemas operativos y los puntos finales en busca de\n vulnerabilidades, mediante el desarrollo de habilidades para mantener la\n integridad, confidencialidad y disponibilidad.",
+    "objetivos": [
+      "Analizar los Principios Básicos de Ciberseguridad en Dispositivos Finales.",
+      "Explicar cómo los actores de amenazas ejecutan algunos de los tipos más comunes de ciberataques.",
+      "Desarrollar habilidades para proteger una red hasta el borde, incluido el hardware, el software y los medios de transmisión.",
+      "Utilizar las mejores prácticas de ciberseguridad para mejorar la confidencialidad, la integridad y la disponibilidad."
+    ],
+    "precios": {
+      "estudianteUta": 30,
+      "docenteUta": 40,
+      "publico": 50
+    },
+    "fechaCurso": "Del 17-mayo al 15-junio-2025",
+    "periodoInscripcion": "Del 20 de abril al 20 de mayo de 2025",
+    "requisitos": "Ninguno",
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Introducción a la Ciberseguridad",
+        "detalle": "Capítulo 1: Introducción a la Ciberseguridad\n Capítulo 2: Ataques, conceptos y técnicas\n Capítulo 3: Protegiendo sus datos y su privacidad\n Capítulo 4: Protegiendo a la organización\n Capítulo 5: ¿Su futuro estará relacionado con la ciberseguridad?"
+      },
+      {
+        "titulo": "Módulo 2: Seguridad de Terminales",
+        "detalle": "Capítulo 1: Amenazas, vulnerabilidades y ataques a la ciberseguridad\n Capítulo 2: Protección de redes\n Capítulo 3: Ataque a los fundamentos Capítulo 4: Atacando lo que hacemos\n Capítulo 5: Comunicación de red Inalámbrica\n Capítulo 6: Infraestructura de seguridad de redes\n Capítulo 7: El sistema Operativo Windows\n Capítulo 8: Descripción General de Linux\n Capítulo 9: Protección de terminales\n Capítulo 10: Principios, prácticas y procesos de ciberseguridad"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso8.php"
+  },
+  {
+    "id": 9,
+    "nombre": "ADMINISTRACIÓN Y DEFENSA DE AMENAZAS CIBERNÉTICAS",
+    "estado": "ABIERTO",
+    "horas": 50,
+    "modalidad": "MOOC",
+    "descripcion": "Este curso cubre diferentes métodos para monitorear la red y cómo evaluar las\nalertas de seguridad. Se profundiza en las herramientas y técnicas utilizadas para\nproteger la red, incluido el control de acceso, firewalls, seguridad en la nube y\ncriptografía. Permite explorar la gobernanza en la ciberseguridad y la gestión de\namenazas, mediante el desarrollo de políticas para que la organización cumpla\ncon los estándares de ética y los marcos legales y regulatorios.",
+    "objetivos": [
+      "Explicar los enfoques para la defensa de la seguridad de la red.",
+      "Implementar listas de control de acceso (ACL), firewall para filtrar el tráfico y\nmitigar los ataques a la red.",
+      "Determinar las técnicas criptográficas que se requieren para garantizar la\nconfidencialidad, la integridad y la autenticidad.",
+      "Impulsar el desarrollo de proyectos de mejora continua dentro del campo empresarial."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 31-mayo al 05-julio-2025",
+    "periodoInscripcion": "Del 01 de mayo al 03 de junio de 2025",
+    "requisitos": "Conocimientos básicos de ciberseguridad.\nConocimientos básicos de redes",
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Defensa de la Red",
+        "detalle": "Capítulo 1:Comprendiendo la Defensa\n Capítulo 2: Defensa de Sistemas y Redes\n Capítulo 3:Control de Acceso\n Capítulo 4: Listas de Control de Acceso\n Capítulo 5: Tecnologías de Firewall\n Capítulo 6: Firewalls de Política Basados en Zonas\n Capítulo 7: Seguridad en la Nube\n Capítulo 8: Criptografía\n Capítulo 9: Tecnologías y Protocolos\n Capítulo 10: Datos de Seguridad de la Red\n Capítulo 11: Evaluación de Alertas"
+      },
+      {
+        "titulo": "Capítulo 1:Comprendiendo la Defensa",
+        "detalle": "Capítulo 1:Comprendiendo la Defensa"
+      },
+      {
+        "titulo": "Capítulo 2: Defensa de Sistemas y Redes",
+        "detalle": "Capítulo 2: Defensa de Sistemas y Redes"
+      },
+      {
+        "titulo": "Capítulo 3:Control de Acceso",
+        "detalle": "Capítulo 3:Control de Acceso"
+      },
+      {
+        "titulo": "Capítulo 4: Listas de Control de Acceso",
+        "detalle": "Capítulo 4: Listas de Control de Acceso"
+      },
+      {
+        "titulo": "Capítulo 5: Tecnologías de Firewall",
+        "detalle": "Capítulo 5: Tecnologías de Firewall"
+      },
+      {
+        "titulo": "Capítulo 6: Firewalls de Política Basados en Zonas",
+        "detalle": "Capítulo 6: Firewalls de Política Basados en Zonas"
+      },
+      {
+        "titulo": "Capítulo 7: Seguridad en la Nube",
+        "detalle": "Capítulo 7: Seguridad en la Nube"
+      },
+      {
+        "titulo": "Capítulo 8: Criptografía",
+        "detalle": "Capítulo 8: Criptografía"
+      },
+      {
+        "titulo": "Capítulo 9: Tecnologías y Protocolos",
+        "detalle": "Capítulo 9: Tecnologías y Protocolos"
+      },
+      {
+        "titulo": "Capítulo 10: Datos de Seguridad de la Red",
+        "detalle": "Capítulo 10: Datos de Seguridad de la Red"
+      },
+      {
+        "titulo": "Capítulo 11: Evaluación de Alertas",
+        "detalle": "Capítulo 11: Evaluación de Alertas"
+      },
+      {
+        "titulo": "Módulo 2: Administración de Amenazas Cibernéticas",
+        "detalle": "Capítulo 1: Gobernanza y Cumplimiento\n Capítulo 2: Pruebas de seguridad de red\n Capítulo 3: Inteligencia de amenazas\n Capítulo 4: Evaluación de la vulnerabilidad de los endpoints\n Capítulo 5: Gestión de Riesgos y Controles de Seguridad\n Capítulo 6: Forense digital y Análisis y respuesta a incidentes"
+      },
+      {
+        "titulo": "Capítulo 1: Gobernanza y Cumplimiento",
+        "detalle": "Capítulo 1: Gobernanza y Cumplimiento"
+      },
+      {
+        "titulo": "Capítulo 2: Pruebas de seguridad de red",
+        "detalle": "Capítulo 2: Pruebas de seguridad de red"
+      },
+      {
+        "titulo": "Capítulo 3: Inteligencia de amenazas",
+        "detalle": "Capítulo 3: Inteligencia de amenazas"
+      },
+      {
+        "titulo": "Capítulo 4: Evaluación de la vulnerabilidad de los endpoints",
+        "detalle": "Capítulo 4: Evaluación de la vulnerabilidad de los endpoints"
+      },
+      {
+        "titulo": "Capítulo 5: Gestión de Riesgos y Controles de Seguridad",
+        "detalle": "Capítulo 5: Gestión de Riesgos y Controles de Seguridad"
+      },
+      {
+        "titulo": "Capítulo 6: Forense digital y Análisis y respuesta a incidentes",
+        "detalle": "Capítulo 6: Forense digital y Análisis y respuesta a incidentes"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso9.php"
+  },
+  {
+    "id": 10,
+    "nombre": "GESTIÓN DE ALMACENES Y DISTRIBUCIÓN FÍSICA",
+    "estado": "CERRADO",
+    "horas": 32,
+    "modalidad": "Presencial",
+    "descripcion": "La VINCULACIÓN con el sector productivo es una de las condiciones necesarias para promover avances en todos los campos de conocimiento. Los progresos dentro de los talleres deben dar respuesta a las necesidades propias del contexto y a la ciudadanía en general, a través de un enfoque multidisciplinar.",
+    "objetivos": [
+      "Desarrollar y fortalecer las habilidades en la gestión de almacenes y su distribución física mediante la descripción de metodologías y aplicación de herramientas de análisis.",
+      "Incentivar y motivar a los participantes en la generación y transmisión de los nuevos conocimientos científicos y tecnológicos adquiridos.",
+      "Fortalecer el intercambio de conocimiento entre distintos grupos multidisciplinarios."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 28 de septiembre al 26 de octubre de 2024",
+    "periodoInscripcion": "16 de septiembre al 26 de septiembre de 2024",
+    "requisitos": "Ninguno",
+    "modulos": [
+      {
+        "titulo": "Clase 1: Operaciones de almacén y flujo de materiales",
+        "detalle": ""
+      },
+      {
+        "titulo": "Clase 2: Técnicas de gestión de almacenes",
+        "detalle": ""
+      },
+      {
+        "titulo": "Clase 3: Diseño de disposiciones físicas",
+        "detalle": ""
+      },
+      {
+        "titulo": "Clase 4: Preparación de pedidos y sistematización",
+        "detalle": ""
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso10.php"
+  },
+  {
+    "id": 11,
+    "nombre": "Introducción al Control Industrial.",
+    "estado": "CERRADO",
+    "horas": 24,
+    "modalidad": "Presencial",
+    "descripcion": "Este curso está orientado a que el participante adquiera conocimientos sobre\n diseño de circuitos de control que le permita realizar instalaciones en tableros con\n elementos de mando y maniobra, con criterio técnico, utilizando las herramientas\n de una manera adecuada y aplicando normas de seguridad e higiene laboral,\n además abarca los principios de electrónica básica que el estudiante requiere para\n poder interconectar los circuitos eléctricos en la creación de proyectos, con\n prácticas objetivas e incluyentes para el desarrollo de aplicaciones en el área de la\n electrónica y control.",
+    "objetivos": [
+      "Adquirir los conocimientos básicos de electricidad y electrónica",
+      "Desarrollar aplicaciones que los participantes se introduzcan en el control industrial",
+      "Utilizar herramientas de simulación para el control de prototipos y procesos industriales.",
+      "Realizar montajes que permitan la conexión de máquinas industriales"
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 15 de junio al jueves 06 de julio de 2024",
+    "periodoInscripcion": "Del 10 al 13 de junio del 2024",
+    "requisitos": "• No necesario ningún requisito previo",
+    "modulos": [
+      {
+        "titulo": "- Identificación de elementos de señalización, mando y\n operación.",
+        "detalle": "- Identificación de elementos de señalización, mando y\n operación."
+      },
+      {
+        "titulo": "- Nomenclatura de los equipos.",
+        "detalle": "- Nomenclatura de los equipos."
+      },
+      {
+        "titulo": "- Forma de trabajo de los elementos de un circuito de control.",
+        "detalle": "- Forma de trabajo de los elementos de un circuito de control."
+      },
+      {
+        "titulo": "- Selección técnica de elementos de control industrial.",
+        "detalle": "- Selección técnica de elementos de control industrial."
+      },
+      {
+        "titulo": "- Temporizadores.",
+        "detalle": "- Temporizadores."
+      },
+      {
+        "titulo": "- Introducción a los diagramas de control industrial. Analogía\n con diagramas eléctricos.",
+        "detalle": "- Introducción a los diagramas de control industrial. Analogía\n con diagramas eléctricos."
+      },
+      {
+        "titulo": "- Simulación de circuitos de potencia",
+        "detalle": "- Simulación de circuitos de potencia"
+      },
+      {
+        "titulo": "- Circuitos de mando",
+        "detalle": "- Circuitos de mando"
+      },
+      {
+        "titulo": "- Circuitos de potencia",
+        "detalle": "- Circuitos de potencia"
+      },
+      {
+        "titulo": "- Arranque de motores Monofásicos y trifásicos",
+        "detalle": "- Arranque de motores Monofásicos y trifásicos"
+      },
+      {
+        "titulo": "- Control de motores",
+        "detalle": "- Control de motores"
+      },
+      {
+        "titulo": "- Control de motores con variadores de frecuencia",
+        "detalle": "- Control de motores con variadores de frecuencia"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso11.php"
+  },
+  {
+    "id": 12,
+    "nombre": "Automatización Industrial y Programación de PLC.",
+    "estado": "CERRADO",
+    "horas": 32,
+    "modalidad": "Presencial",
+    "descripcion": "La automatización es una herramienta en constante crecimiento en las empresas\n que buscan mejorar la productividad de los procesos y la calidad de sus\n productos. Conocer los principios de la automatización es importante para todas\n las personas con formación técnica que deseen desarrollar sus habilidades en la\n industria. El presente proyecto, con un enfoque teórico-práctico, presenta los\n principios de la automatización industrial, sus elementos, niveles de\n funcionamiento en la industria, y la programación de PLCs. A través de cada tema,\n se explora la fundamentación teórica que respalda las prácticas de laboratorio\n que se realizarán.",
+    "objetivos": [
+      "Capacitar a los asistentes en los principios de la automatización industrial, \n fundamentalmente en la programación de controladores lógicos programables.",
+      "Desarrollar prácticas de aplicaciones industriales que permitan integrar los PLCs a\n la producción industrial."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 01 al jueves 22 de junio de 2024",
+    "periodoInscripcion": "Del 15 al 30 mayo",
+    "requisitos": "• No necesario ningún requisito previo",
+    "modulos": [
+      {
+        "titulo": "- Pirámide de la Automatización y grados de automatización.",
+        "detalle": "- Pirámide de la Automatización y grados de automatización."
+      },
+      {
+        "titulo": "- Principios de control industrial.",
+        "detalle": "- Principios de control industrial."
+      },
+      {
+        "titulo": "- Sistemas de Control a Lazo Abierto y Cerrado.",
+        "detalle": "- Sistemas de Control a Lazo Abierto y Cerrado."
+      },
+      {
+        "titulo": "- Automatismos Cableados vs Programables.",
+        "detalle": "- Automatismos Cableados vs Programables."
+      },
+      {
+        "titulo": "- Sensores y Actuadores.",
+        "detalle": "- Sensores y Actuadores."
+      },
+      {
+        "titulo": "- Arquitectura del PLC.",
+        "detalle": "- Arquitectura del PLC."
+      },
+      {
+        "titulo": "- Memoria y programación de PLC.",
+        "detalle": "- Memoria y programación de PLC."
+      },
+      {
+        "titulo": "- Entradas y salidas digitales.",
+        "detalle": "- Entradas y salidas digitales."
+      },
+      {
+        "titulo": "- Entradas y salidas análogas.",
+        "detalle": "- Entradas y salidas análogas."
+      },
+      {
+        "titulo": "- Uso de temporizadores y contadores, funciones y bloques de\n programación.",
+        "detalle": "- Uso de temporizadores y contadores, funciones y bloques de\n programación."
+      },
+      {
+        "titulo": "- Aplicaciones Industriales.",
+        "detalle": "- Aplicaciones Industriales."
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso12.php"
+  },
+  {
+    "id": 13,
+    "nombre": "Arduino desde cero: Electrónica, Programación y Automatización",
+    "estado": "ABIERTO",
+    "horas": 40,
+    "modalidad": "Presencial",
+    "descripcion": "El curso \"Arduino desde cero: Electrónica, Programación y Automatización\" ofrece una formación integral \n en el uso de Arduino para el desarrollo de proyectos de electrónica, programación y automatización. \n Diseñado para principiantes y entusiastas, el curso abarca desde los fundamentos básicos hasta \n aplicaciones avanzadas, combinando teoría y práctica para garantizar un aprendizaje efectivo.\n \n Los participantes se familiarizarán con la plataforma Arduino, su entorno de desarrollo (IDE) y las \n estructuras básicas de programación. Aprenderán a manejar entradas/salidas digitales, comunicación \n mediante puerto serial, control de motores y dispositivos, así como el uso del conversor analógico-digital \n (ADC) para la lectura de sensores. También explorarán técnicas avanzadas como interrupciones, timers, \n ahorro energético y comunicación I2C.\n \n Al finalizar, los participantes estarán capacitados para diseñar, programar y ejecutar proyectos \n innovadores con Arduino, aplicando técnicas de automatización, comunicación de datos y optimización \n de recursos en entornos educativos, industriales o de prototipado.",
+    "objetivos": [
+      "Capacitar en el diseño, programación y ejecución de proyectos con Arduino, desde configuraciones básicas \n (entradas/salidas digitales, estructuras de control) hasta aplicaciones avanzadas (control de motores, \n comunicación serial/I2C y automatización).",
+      "Desarrollar habilidades prácticas en electrónica y sistemas integrados, incluyendo el manejo de sensores \n analógicos/digitales, modulación PWM, integración con herramientas como LabVIEW, y optimización de recursos \n mediante interrupciones y técnicas de bajo consumo.",
+      "Fomentar la creación de soluciones innovadoras y eficientes en automatización, prototipado y adquisición \n de datos, aplicables en contextos educativos, industriales o de desarrollo tecnológico."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 07 al 30 de junio de 2025",
+    "periodoInscripcion": "Del 19 de mayo al 04 de junio de 2025",
+    "requisitos": "• Ninguno",
+    "modulos": [
+      {
+        "titulo": "Clase 1:",
+        "detalle": ""
+      },
+      {
+        "titulo": "• ¿Qué es Arduino?",
+        "detalle": "• ¿Qué es Arduino?"
+      },
+      {
+        "titulo": "• Entorno de desarrollo IDE",
+        "detalle": "• Entorno de desarrollo IDE"
+      },
+      {
+        "titulo": "• Estructuras de selección if/else y switch",
+        "detalle": "• Estructuras de selección if/else y switch"
+      },
+      {
+        "titulo": "• Puerto serial. Transmisión/Recepción de datos",
+        "detalle": "• Puerto serial. Transmisión/Recepción de datos"
+      },
+      {
+        "titulo": "• Comunicación serial entre tarjetas Arduino",
+        "detalle": "• Comunicación serial entre tarjetas Arduino"
+      },
+      {
+        "titulo": "• Lectura de botones, control de motores DC y dispositivos de potencia AC",
+        "detalle": "• Lectura de botones, control de motores DC y dispositivos de potencia AC"
+      },
+      {
+        "titulo": "• Estructuras de repetición: while, do-while y for",
+        "detalle": "• Estructuras de repetición: while, do-while y for"
+      },
+      {
+        "titulo": "• Manejo de entradas/salidas digitales",
+        "detalle": "• Manejo de entradas/salidas digitales"
+      },
+      {
+        "titulo": "Clase 2:",
+        "detalle": ""
+      },
+      {
+        "titulo": "• Conversor Analógico – Digital (ADC)",
+        "detalle": "• Conversor Analógico – Digital (ADC)"
+      },
+      {
+        "titulo": "• Configuración del módulo ADC de Arduino",
+        "detalle": "• Configuración del módulo ADC de Arduino"
+      },
+      {
+        "titulo": "• Lectura de voltaje y sensores analógicos",
+        "detalle": "• Lectura de voltaje y sensores analógicos"
+      },
+      {
+        "titulo": "• Modulación por ancho de Pulso (PWM)",
+        "detalle": "• Modulación por ancho de Pulso (PWM)"
+      },
+      {
+        "titulo": "• Control de intensidad de luz y de servomotor por PWM",
+        "detalle": "• Control de intensidad de luz y de servomotor por PWM"
+      },
+      {
+        "titulo": "• Comunicación con sistemas HMI y SCADAS",
+        "detalle": "• Comunicación con sistemas HMI y SCADAS"
+      },
+      {
+        "titulo": "• Convirtiendo al Arduino en una DAQ (Tarjeta de Adquisición de datos)",
+        "detalle": "• Convirtiendo al Arduino en una DAQ (Tarjeta de Adquisición de datos)"
+      },
+      {
+        "titulo": "• Prototipo de un Osciloscopio con Arduino y NI LabVIEW",
+        "detalle": "• Prototipo de un Osciloscopio con Arduino y NI LabVIEW"
+      },
+      {
+        "titulo": "Clase 3:",
+        "detalle": ""
+      },
+      {
+        "titulo": "• Interrupciones y control de tiempo (timers) en Arduino",
+        "detalle": "• Interrupciones y control de tiempo (timers) en Arduino"
+      },
+      {
+        "titulo": "• Corrección de efecto rebote en pulsadores",
+        "detalle": "• Corrección de efecto rebote en pulsadores"
+      },
+      {
+        "titulo": "• Modo sleep y ahorro de batería",
+        "detalle": "• Modo sleep y ahorro de batería"
+      },
+      {
+        "titulo": "• Uso del modo sleep para la lectura periódica de sensores",
+        "detalle": "• Uso del modo sleep para la lectura periódica de sensores"
+      },
+      {
+        "titulo": "Clase 4:",
+        "detalle": ""
+      },
+      {
+        "titulo": "• Comunicación I2C",
+        "detalle": "• Comunicación I2C"
+      },
+      {
+        "titulo": "• Lectura de temperatura y presión mediante la comunicación I2C",
+        "detalle": "• Lectura de temperatura y presión mediante la comunicación I2C"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso13.php"
+  },
+  {
+    "id": 14,
+    "nombre": "La Ley de Protección de Datos en el Ecuador: Claves Legales y Técnicas para el Cumplimiento Normativo",
+    "estado": "ABIERTO",
+    "horas": 32,
+    "modalidad": "Presencial",
+    "descripcion": "Este curso tiene como objetivo ofrecer a estudiantes, docentes y al público en general una comprensión \n sólida sobre la Ley Orgánica de Protección de Datos Personales (LOPDP) de Ecuador y su reglamento. A través \n de un análisis de los fundamentos legales, principios clave y casos prácticos, los participantes aprenderán \n a identificar los derechos que tienen como titulares de datos, así como las responsabilidades que deben \n cumplir las instituciones, tanto públicas como privadas, al manejar información personal.\n \n La propuesta académica se basa en ejemplos reales de políticas internas, normativas internacionales y \n estándares como el GDPR europeo. El curso promueve una perspectiva humanista sobre la protección de datos, \n fomentando el uso responsable de la información como un derecho fundamental y un aspecto esencial en \n nuestra sociedad digital.\n \n Este curso contribuye a establecer una cultura de privacidad y cumplimiento normativo que se alinea con \n los más altos estándares, ayudando a formar ciudadanos y profesionales conscientes y capaces de adaptarse \n a las nuevas realidades legales, éticas y tecnológicas en el manejo de datos personales.",
+    "objetivos": [
+      "Comprender los fundamentos jurídicos, principios rectores y alcance de la Ley Orgánica de Protección de \n Datos Personales y su reglamento en el contexto ecuatoriano.",
+      "Identificar los derechos que asisten a los titulares de datos personales y las responsabilidades de los \n distintos actores involucrados en su tratamiento (responsables, encargados, delegados de protección, \n entre otros).",
+      "Aplicar buenas prácticas y herramientas para la protección de datos personales en organizaciones públicas \n y privadas, con base en ejemplos reales, normativa internacional comparada y estándares como el GDPR europeo."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 07 al 30 de junio de 2025",
+    "periodoInscripcion": "Del 15 de Mayo al 04 de Junio de 2025",
+    "requisitos": "• Ninguno",
+    "modulos": [
+      {
+        "titulo": "Clase 1:",
+        "detalle": "Fundamentos de la Protección de Datos Personales: Contexto Nacional e Internacional"
+      },
+      {
+        "titulo": "Clase 2:",
+        "detalle": "Derechos del Titular y Obligaciones de los Responsables del Tratamiento"
+      },
+      {
+        "titulo": "Clase 3:",
+        "detalle": "Gestión y Seguridad de los Datos en Organizaciones"
+      },
+      {
+        "titulo": "Clase 4:",
+        "detalle": "Aplicación Práctica y Casos Reales"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso14.php"
+  },
+  {
+    "id": 15,
+    "nombre": "Inteligencia Artificial para la Gestión de Recursos Humanos",
+    "estado": "ABIERTO",
+    "horas": 32,
+    "modalidad": "Virtual",
+    "descripcion": "Este curso está diseñado para introducirte de manera práctica y sencilla en el uso \n de herramientas de IA aplicadas a Recursos Humanos. Aprende a optimizar procesos \n clave como la selección de personal entre otros. Incorpora tecnologías accesibles \n que potenciarán tu productividad y te permitirán gestionar el capital humano de \n forma más eficiente, innovadora y orientada a resultados.",
+    "objetivos": [
+      "Entender los fundamentos y el impacto de la inteligencia artificial en el ámbito de \n los Recursos Humanos.",
+      "Explorar y dominar el uso de herramientas de IA gratuitas para hacer más eficiente \n el proceso de atracción y selección de talento.",
+      "Implementar soluciones basadas en IA que mejoren la experiencia de onboarding e \n integración de nuevos colaboradores."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 60,
+      "publico": 80
+    },
+    "fechaCurso": "Del 04 al 30 de junio de 2025",
+    "periodoInscripcion": "Del 14 de Mayo al 03 de Junio de 2025",
+    "requisitos": "• Ninguno",
+    "modulos": [
+      {
+        "titulo": "Clase 1:",
+        "detalle": "Introducción a la Inteligencia Artificial"
+      },
+      {
+        "titulo": "Clase 2:",
+        "detalle": "Prompt Engineering"
+      },
+      {
+        "titulo": "Clase 3:",
+        "detalle": "Creación de Presentaciones con IA"
+      },
+      {
+        "titulo": "Clase 4:",
+        "detalle": "Extensiones para la productividad con IA"
+      },
+      {
+        "titulo": "Clase 5:",
+        "detalle": "La IA como motor de selección del personal"
+      },
+      {
+        "titulo": "Clase 6:",
+        "detalle": "Inteligencia Artificial generativa: innovación y aplicaciones"
+      },
+      {
+        "titulo": "Clase 7:",
+        "detalle": "Consideraciones éticas sobre IA"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso15.php"
+  },
+  {
+    "id": 16,
+    "nombre": "CCNA: Introducción a las redes – Preparación Cisco Certified Network Associate",
+    "estado": "ABIERTO",
+    "horas": 70,
+    "modalidad": "Híbrida",
+    "descripcion": "El curso CCNA: Introducción a las redes proporciona los fundamentos teóricos y prácticos para comprender cómo funcionan las redes de datos. Aborda los modelos OSI y TCP/IP, Ethernet, configuración básica de switches y routers, direccionamiento IPv4 e IPv6, protocolos de comunicación, seguridad y la construcción de una red pequeña.",
+    "objetivos": [
+      "Comprender los modelos y protocolos de comunicación de redes.",
+      "Configurar y verificar dispositivos de red como switches y routers.",
+      "Aplicar direccionamiento IPv4 e IPv6 y conceptos de seguridad en una red pequeña."
+    ],
+    "precios": {
+      "estudianteUta": 120,
+      "docenteUta": 150,
+      "publico": 180
+    },
+    "fechaCurso": "Del 16 de octubre de 2026 al 05 de diciembre de 2026",
+    "periodoInscripcion": "Del 01 de octubre de 2026 al 15 de octubre de 2026",
+    "requisitos": "Ninguno.",
+    "modulos": [
+      {
+        "titulo": "Módulo 1:",
+        "detalle": "Networking Today"
+      },
+      {
+        "titulo": "Módulo 2:",
+        "detalle": "Basic Switch and End Device Configuration"
+      },
+      {
+        "titulo": "Módulo 3:",
+        "detalle": "Protocols and Models"
+      },
+      {
+        "titulo": "Módulo 4:",
+        "detalle": "Physical Layer"
+      },
+      {
+        "titulo": "Módulo 5:",
+        "detalle": "Number Systems"
+      },
+      {
+        "titulo": "Módulo 6:",
+        "detalle": "Data Link Layer"
+      },
+      {
+        "titulo": "Módulo 7:",
+        "detalle": "Ethernet Switching"
+      },
+      {
+        "titulo": "Módulo 8:",
+        "detalle": "Network Layer"
+      },
+      {
+        "titulo": "Módulo 9:",
+        "detalle": "Address Resolution"
+      },
+      {
+        "titulo": "Módulo 10:",
+        "detalle": "Basic Router Configuration"
+      },
+      {
+        "titulo": "Módulo 11:",
+        "detalle": "IPv4 Addressing"
+      },
+      {
+        "titulo": "Módulo 12:",
+        "detalle": "IPv6 Addressing"
+      },
+      {
+        "titulo": "Módulo 13:",
+        "detalle": "ICMP"
+      },
+      {
+        "titulo": "Módulo 14:",
+        "detalle": "Transport Layer"
+      },
+      {
+        "titulo": "Módulo 15:",
+        "detalle": "Application Layer"
+      },
+      {
+        "titulo": "Módulo 16:",
+        "detalle": "Network Security Fundamentals"
+      },
+      {
+        "titulo": "Módulo 17:",
+        "detalle": "Build a Small Network"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso16.php"
+  },
+  {
+    "id": 17,
+    "nombre": "Linux Essentials – Preparación Linux Essentials Certificate",
+    "estado": "ABIERTO",
+    "horas": 70,
+    "modalidad": "Virtual autodidacta (Self-paced)",
+    "descripcion": "El curso Linux Essentials introduce el sistema operativo Linux y los fundamentos del software libre y de código abierto. Permite adquirir competencias iniciales para trabajar con distribuciones Linux, navegar por el sistema de archivos, administrar usuarios y permisos, ejecutar comandos y aplicar nociones de administración y seguridad.",
+    "objetivos": [
+      "Instalar y configurar un sistema operativo Linux con procedimientos básicos.",
+      "Administrar archivos, directorios, usuarios, grupos y permisos desde la línea de comandos.",
+      "Gestionar procesos, servicios y tareas de Linux.",
+      "Aplicar buenas prácticas iniciales de administración y seguridad."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 16 de octubre de 2026 al 05 de diciembre de 2026",
+    "periodoInscripcion": "Del 01 de octubre de 2026 al 15 de octubre de 2026",
+    "requisitos": "Ninguno.",
+    "modulos": [
+      {
+        "titulo": "Capítulo 1:",
+        "detalle": "Introduction to Linux"
+      },
+      {
+        "titulo": "Capítulo 2:",
+        "detalle": "Operating Systems"
+      },
+      {
+        "titulo": "Capítulo 3:",
+        "detalle": "Working in Linux"
+      },
+      {
+        "titulo": "Capítulo 4:",
+        "detalle": "Open Source Software and Licensing"
+      },
+      {
+        "titulo": "Capítulo 5:",
+        "detalle": "Command Line Skills"
+      },
+      {
+        "titulo": "Capítulo 6:",
+        "detalle": "Getting Help"
+      },
+      {
+        "titulo": "Capítulo 7:",
+        "detalle": "Navigating the Filesystem"
+      },
+      {
+        "titulo": "Capítulo 8:",
+        "detalle": "Managing Files and Directories"
+      },
+      {
+        "titulo": "Capítulo 9:",
+        "detalle": "Archiving and Compression"
+      },
+      {
+        "titulo": "Capítulo 10:",
+        "detalle": "Working With Text"
+      },
+      {
+        "titulo": "Capítulo 11:",
+        "detalle": "Basic Scripting"
+      },
+      {
+        "titulo": "Capítulo 12:",
+        "detalle": "Understanding Computer Hardware"
+      },
+      {
+        "titulo": "Capítulo 13:",
+        "detalle": "Where Data is Stored"
+      },
+      {
+        "titulo": "Capítulo 14:",
+        "detalle": "Network Configuration"
+      },
+      {
+        "titulo": "Capítulo 15:",
+        "detalle": "System and User Security"
+      },
+      {
+        "titulo": "Capítulo 16:",
+        "detalle": "Creating Users and Groups"
+      },
+      {
+        "titulo": "Capítulo 17:",
+        "detalle": "Ownership and Permissions"
+      },
+      {
+        "titulo": "Capítulo 18:",
+        "detalle": "Special Directories and Files"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso17.php"
+  },
+  {
+    "id": 18,
+    "nombre": "Fundamentos de Python 1 – Certified Entry-Level Python",
+    "estado": "ABIERTO",
+    "horas": 32,
+    "modalidad": "Virtual autodidacta (Self-paced)",
+    "descripcion": "Fundamentos de Python 1 de Cisco NetAcad introduce la programación con Python mediante ejercicios y actividades. Los participantes estudian lógica, variables, operadores, entrada y salida de datos, condiciones, bucles, listas, funciones y procesamiento básico de información.",
+    "objetivos": [
+      "Comprender los conceptos fundamentales de la programación y la lógica algorítmica.",
+      "Desarrollar programas sencillos con variables, operadores y condicionales.",
+      "Utilizar listas, bucles, funciones y diccionarios para resolver problemas.",
+      "Organizar soluciones en módulos y preparar aplicaciones prácticas."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 16 de octubre de 2026 al 16 de noviembre de 2026",
+    "periodoInscripcion": "Del 01 de octubre de 2026 al 15 de octubre de 2026",
+    "requisitos": "Ninguno.",
+    "modulos": [
+      {
+        "titulo": "Módulo 1:",
+        "detalle": "Introducción a Python y programación informática\n \n Introducción a la programación\n Introducción a Python\n Descarga e instalación de Python\n Evaluación"
+      },
+      {
+        "titulo": "Introducción a la programación",
+        "detalle": "Introducción a la programación"
+      },
+      {
+        "titulo": "Introducción a Python",
+        "detalle": "Introducción a Python"
+      },
+      {
+        "titulo": "Descarga e instalación de Python",
+        "detalle": "Descarga e instalación de Python"
+      },
+      {
+        "titulo": "Evaluación",
+        "detalle": "Evaluación"
+      },
+      {
+        "titulo": "Módulo 2:",
+        "detalle": "Tipos de datos, variables, operaciones básicas de entrada-salida y operadores básicos\n \n El programa “Hola, Mundo”\n Literales de Python\n Operadores: herramientas de manipulación de datos\n Variables\n Comentarios\n Interacción con el usuario\n Evaluación"
+      },
+      {
+        "titulo": "El programa “Hola, Mundo”",
+        "detalle": "El programa “Hola, Mundo”"
+      },
+      {
+        "titulo": "Literales de Python",
+        "detalle": "Literales de Python"
+      },
+      {
+        "titulo": "Operadores: herramientas de manipulación de datos",
+        "detalle": "Operadores: herramientas de manipulación de datos"
+      },
+      {
+        "titulo": "Variables",
+        "detalle": "Variables"
+      },
+      {
+        "titulo": "Comentarios",
+        "detalle": "Comentarios"
+      },
+      {
+        "titulo": "Interacción con el usuario",
+        "detalle": "Interacción con el usuario"
+      },
+      {
+        "titulo": "Evaluación",
+        "detalle": "Evaluación"
+      },
+      {
+        "titulo": "Módulo 3:",
+        "detalle": "Valores booleanos, ejecución condicional, bucles, listas y procesamiento de listas, operaciones lógicas y bit a bit\n \n Toma de decisiones en Python\n Bucles en Python\n Operadores lógicos y operaciones bit a bit en Python\n Listas\n Ordenamiento de listas: algoritmo burbuja\n Operaciones con listas\n Aplicaciones avanzadas de listas\n Evaluación"
+      },
+      {
+        "titulo": "Toma de decisiones en Python",
+        "detalle": "Toma de decisiones en Python"
+      },
+      {
+        "titulo": "Bucles en Python",
+        "detalle": "Bucles en Python"
+      },
+      {
+        "titulo": "Operadores lógicos y operaciones bit a bit en Python",
+        "detalle": "Operadores lógicos y operaciones bit a bit en Python"
+      },
+      {
+        "titulo": "Listas",
+        "detalle": "Listas"
+      },
+      {
+        "titulo": "Ordenamiento de listas: algoritmo burbuja",
+        "detalle": "Ordenamiento de listas: algoritmo burbuja"
+      },
+      {
+        "titulo": "Operaciones con listas",
+        "detalle": "Operaciones con listas"
+      },
+      {
+        "titulo": "Aplicaciones avanzadas de listas",
+        "detalle": "Aplicaciones avanzadas de listas"
+      },
+      {
+        "titulo": "Evaluación",
+        "detalle": "Evaluación"
+      },
+      {
+        "titulo": "Módulo 4:",
+        "detalle": "Funciones, tuplas, diccionarios, excepciones y procesamiento de datos\n \n Funciones\n Comunicación de las funciones con su entorno\n Resultados de funciones\n Alcances en Python\n Creación de funciones con múltiples parámetros\n Tuplas y diccionarios\n Excepcione\n Evaluación"
+      },
+      {
+        "titulo": "Funciones",
+        "detalle": "Funciones"
+      },
+      {
+        "titulo": "Comunicación de las funciones con su entorno",
+        "detalle": "Comunicación de las funciones con su entorno"
+      },
+      {
+        "titulo": "Resultados de funciones",
+        "detalle": "Resultados de funciones"
+      },
+      {
+        "titulo": "Alcances en Python",
+        "detalle": "Alcances en Python"
+      },
+      {
+        "titulo": "Creación de funciones con múltiples parámetros",
+        "detalle": "Creación de funciones con múltiples parámetros"
+      },
+      {
+        "titulo": "Tuplas y diccionarios",
+        "detalle": "Tuplas y diccionarios"
+      },
+      {
+        "titulo": "Excepcione",
+        "detalle": "Excepcione"
+      },
+      {
+        "titulo": "Evaluación",
+        "detalle": "Evaluación"
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso18.php"
+  },
+  {
+    "id": 19,
+    "nombre": "Preparación GitHub Certified: Agentic AI Developer (GH-600)",
+    "estado": "ABIERTO",
+    "horas": 32,
+    "modalidad": "Virtual",
+    "descripcion": "Capacitación inicial de agentes de inteligencia artificial aplicados al ciclo de vida del desarrollo de software. Abarca Git y GitHub, colaboración, GitHub Actions, GitHub Copilot, instrucciones para agentes, uso de herramientas y fundamentos de Model Context Protocol (MCP), evaluación, controles de seguridad y un proyecto integrador.",
+    "objetivos": [
+      "Aplicar Git, GitHub, SDLC y automatización básica con GitHub Actions en trabajo colaborativo.",
+      "Configurar agentes de codificación con GitHub Copilot, instrucciones personalizadas y fundamentos de MCP.",
+      "Evaluar y supervisar agentes mediante criterios de éxito, guardrails y revisión humana; desarrollar un proyecto integrador."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 14 de noviembre de 2026 al 05 de diciembre de 2026",
+    "periodoInscripcion": "Del 30 de octubre de 2026 al 13 de noviembre de 2026",
+    "requisitos": "Conocimientos básicos de programación y manejo de computador. No se requiere experiencia previa con IA agéntica, MCP ni GitHub Copilot.",
+    "modulos": [
+      {
+        "titulo": "Clase 1:",
+        "detalle": "Fundamentos de GitHub, SDLC e IA Agéntica\n \n Git y GitHub: repositorios, commits, ramas, pull requests y revisión de código.\n Introducción al SDLC, CI/CD y GitHub Actions.\n Fundamentos de IA generativa y agentes de codificación.\n Introducción a GitHub Copilot y prompting para desarrollo.\n Ciclo del agente: planificar, actuar y evaluar.\n GitHub como sistema de registro y plano de control.\n \n Trabajo autónomo: práctica de repositorio, ramas y pull request."
+      },
+      {
+        "titulo": "Git y GitHub: repositorios, commits, ramas, pull requests y revisión de código.",
+        "detalle": "Git y GitHub: repositorios, commits, ramas, pull requests y revisión de código."
+      },
+      {
+        "titulo": "Introducción al SDLC, CI/CD y GitHub Actions.",
+        "detalle": "Introducción al SDLC, CI/CD y GitHub Actions."
+      },
+      {
+        "titulo": "Fundamentos de IA generativa y agentes de codificación.",
+        "detalle": "Fundamentos de IA generativa y agentes de codificación."
+      },
+      {
+        "titulo": "Introducción a GitHub Copilot y prompting para desarrollo.",
+        "detalle": "Introducción a GitHub Copilot y prompting para desarrollo."
+      },
+      {
+        "titulo": "Ciclo del agente: planificar, actuar y evaluar.",
+        "detalle": "Ciclo del agente: planificar, actuar y evaluar."
+      },
+      {
+        "titulo": "GitHub como sistema de registro y plano de control.",
+        "detalle": "GitHub como sistema de registro y plano de control."
+      },
+      {
+        "titulo": "Clase 2:",
+        "detalle": "Arquitectura del Agente e Integración con el SDLC\n \n Definición de tareas, entradas, salidas y criterios de éxito.\n Separación entre planificación, razonamiento y ejecución.\n Instrucciones personalizadas y agentes personalizados.\n Alcance por repositorio, rama y flujo de trabajo.\n Revisión, CODEOWNERS, reglas, protección de ramas y observabilidad.\n \n Trabajo autónomo: diseño de un flujo agéntico controlado."
+      },
+      {
+        "titulo": "Definición de tareas, entradas, salidas y criterios de éxito.",
+        "detalle": "Definición de tareas, entradas, salidas y criterios de éxito."
+      },
+      {
+        "titulo": "Separación entre planificación, razonamiento y ejecución.",
+        "detalle": "Separación entre planificación, razonamiento y ejecución."
+      },
+      {
+        "titulo": "Instrucciones personalizadas y agentes personalizados.",
+        "detalle": "Instrucciones personalizadas y agentes personalizados."
+      },
+      {
+        "titulo": "Alcance por repositorio, rama y flujo de trabajo.",
+        "detalle": "Alcance por repositorio, rama y flujo de trabajo."
+      },
+      {
+        "titulo": "Revisión, CODEOWNERS, reglas, protección de ramas y observabilidad.",
+        "detalle": "Revisión, CODEOWNERS, reglas, protección de ramas y observabilidad."
+      },
+      {
+        "titulo": "Clase 3:",
+        "detalle": "Herramientas, MCP, Memoria, Estado y Ejecución\n \n Uso de herramientas, APIs y permisos del agente.\n Fundamentos de Model Context Protocol (MCP), servidores, registros y listas permitidas.\n Contexto y límites de ejecución en GitHub.\n Estrategias básicas de memoria, estado y prevención de deriva de contexto.\n Manejo de errores, reintentos, reversión, escalamiento y trazabilidad.\n \n Trabajo autónomo: laboratorio guiado de herramientas y MCP."
+      },
+      {
+        "titulo": "Uso de herramientas, APIs y permisos del agente.",
+        "detalle": "Uso de herramientas, APIs y permisos del agente."
+      },
+      {
+        "titulo": "Fundamentos de Model Context Protocol (MCP), servidores, registros y listas permitidas.",
+        "detalle": "Fundamentos de Model Context Protocol (MCP), servidores, registros y listas permitidas."
+      },
+      {
+        "titulo": "Contexto y límites de ejecución en GitHub.",
+        "detalle": "Contexto y límites de ejecución en GitHub."
+      },
+      {
+        "titulo": "Estrategias básicas de memoria, estado y prevención de deriva de contexto.",
+        "detalle": "Estrategias básicas de memoria, estado y prevención de deriva de contexto."
+      },
+      {
+        "titulo": "Manejo de errores, reintentos, reversión, escalamiento y trazabilidad.",
+        "detalle": "Manejo de errores, reintentos, reversión, escalamiento y trazabilidad."
+      },
+      {
+        "titulo": "Clase 4:",
+        "detalle": "Evaluación, Multiagente, Guardrails y Proyecto Integrador\n \n Criterios de éxito, señales de evaluación y análisis de errores.\n Ajuste de instrucciones, herramientas, contexto y permisos.\n Coordinación multiagente, aislamiento, conflictos y recuperación.\n Guardrails, mínimo privilegio, aprobación humana y auditoría.\n Proyecto: agente que propone cambios mediante rama y pull request controlado.\n \n Mapeo introductorio a los seis dominios del examen GH-600."
+      },
+      {
+        "titulo": "Criterios de éxito, señales de evaluación y análisis de errores.",
+        "detalle": "Criterios de éxito, señales de evaluación y análisis de errores."
+      },
+      {
+        "titulo": "Ajuste de instrucciones, herramientas, contexto y permisos.",
+        "detalle": "Ajuste de instrucciones, herramientas, contexto y permisos."
+      },
+      {
+        "titulo": "Coordinación multiagente, aislamiento, conflictos y recuperación.",
+        "detalle": "Coordinación multiagente, aislamiento, conflictos y recuperación."
+      },
+      {
+        "titulo": "Guardrails, mínimo privilegio, aprobación humana y auditoría.",
+        "detalle": "Guardrails, mínimo privilegio, aprobación humana y auditoría."
+      },
+      {
+        "titulo": "Proyecto: agente que propone cambios mediante rama y pull request controlado.",
+        "detalle": "Proyecto: agente que propone cambios mediante rama y pull request controlado."
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso19.php"
+  },
+  {
+    "id": 20,
+    "nombre": "Preparación Arduino Certification Program",
+    "estado": "ABIERTO",
+    "horas": 32,
+    "modalidad": "Presencial",
+    "descripcion": "Formación teórico-práctica en electricidad, circuitos de corriente continua, lectura de esquemas, instrumentación y programación de microcontroladores Arduino Uno. Se estudian leyes eléctricas, uso del multímetro, Arduino IDE, pines digitales y analógicos, PWM, comunicación serial y prácticas sobre protoboard.",
+    "objetivos": [
+      "Aplicar las leyes fundamentales de circuitos eléctricos en montaje y medición en protoboard.",
+      "Desarrollar programas estructurados en C/C++ utilizando Arduino IDE.",
+      "Integrar sensores y entradas analógicas para adquisición de datos y control básico."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 14 de noviembre de 2026 al 05 de diciembre de 2026",
+    "periodoInscripcion": "Del 30 de octubre de 2026 al 13 de noviembre de 2026",
+    "requisitos": "Conocimientos básicos de matemáticas y manejo general de herramientas informáticas.",
+    "modulos": [
+      {
+        "titulo": "Unidad 1:",
+        "detalle": "FUNDAMENTOS DE ELECTRICIDAD Y LEYES DE CIRCUITOS.\n \n Clase 1\n \n Carga eléctrica, tensión (voltaje), corriente y potencia eléctrica.\n Ley de Ohm y Leyes de Kirchhoff.\n Componentes pasivos: Resistencias en serie, paralelo y combinaciones mixtas.\n Ejercicios prácticos de cálculo de corriente y caída de tensión.\n \n \n Clase 2\n \n Simbología electrónica estandarizada (IEEE/IEC).\n Interpretación y dibujo de diagramas esquemáticos eléctricos.\n Uso correcto del multímetro digital para medición de resistencia, voltaje continuo y corriente.\n Montaje correcto de circuitos en protoboard sin energía y verificación de continuidad."
+      },
+      {
+        "titulo": "Clase 1",
+        "detalle": "Carga eléctrica, tensión (voltaje), corriente y potencia eléctrica.\n Ley de Ohm y Leyes de Kirchhoff.\n Componentes pasivos: Resistencias en serie, paralelo y combinaciones mixtas.\n Ejercicios prácticos de cálculo de corriente y caída de tensión."
+      },
+      {
+        "titulo": "Carga eléctrica, tensión (voltaje), corriente y potencia eléctrica.",
+        "detalle": "Carga eléctrica, tensión (voltaje), corriente y potencia eléctrica."
+      },
+      {
+        "titulo": "Ley de Ohm y Leyes de Kirchhoff.",
+        "detalle": "Ley de Ohm y Leyes de Kirchhoff."
+      },
+      {
+        "titulo": "Componentes pasivos: Resistencias en serie, paralelo y combinaciones mixtas.",
+        "detalle": "Componentes pasivos: Resistencias en serie, paralelo y combinaciones mixtas."
+      },
+      {
+        "titulo": "Ejercicios prácticos de cálculo de corriente y caída de tensión.",
+        "detalle": "Ejercicios prácticos de cálculo de corriente y caída de tensión."
+      },
+      {
+        "titulo": "Clase 2",
+        "detalle": "Simbología electrónica estandarizada (IEEE/IEC).\n Interpretación y dibujo de diagramas esquemáticos eléctricos.\n Uso correcto del multímetro digital para medición de resistencia, voltaje continuo y corriente.\n Montaje correcto de circuitos en protoboard sin energía y verificación de continuidad."
+      },
+      {
+        "titulo": "Simbología electrónica estandarizada (IEEE/IEC).",
+        "detalle": "Simbología electrónica estandarizada (IEEE/IEC)."
+      },
+      {
+        "titulo": "Interpretación y dibujo de diagramas esquemáticos eléctricos.",
+        "detalle": "Interpretación y dibujo de diagramas esquemáticos eléctricos."
+      },
+      {
+        "titulo": "Uso correcto del multímetro digital para medición de resistencia, voltaje continuo y corriente.",
+        "detalle": "Uso correcto del multímetro digital para medición de resistencia, voltaje continuo y corriente."
+      },
+      {
+        "titulo": "Montaje correcto de circuitos en protoboard sin energía y verificación de continuidad.",
+        "detalle": "Montaje correcto de circuitos en protoboard sin energía y verificación de continuidad."
+      },
+      {
+        "titulo": "Unidad 2:",
+        "detalle": "ARQUITECTURA ARDUINO Y ENTORNO IDE.\n \n Clase 3\n \n Arquitectura básica de microcontroladores (ATmega328P) vs. sistemas en chip.\n Descripción del hardware Arduino Uno: Alimentación (VIN, 5V, 3.3V, GND), pines digitales, analógicos y reset.\n Instalación del Arduino IDE 2.x, configuración de puertos serie (COM) y selección de placa.\n Estructura fundamental de un programa: setup() y loop().\n \n \n Clase 4\n \n Tipos de datos en C++: int, float, char, boolean, byte, long, unsigned.\n Variables y constantes: Declaración, asignación, ámbito (variables globales vs. locales) y const.\n Operadores aritméticos, relacionales y lógicos.\n Ejercicios de depuración y buenas prácticas de sintaxis (punto y coma, llaves, comentarios)."
+      },
+      {
+        "titulo": "Clase 3",
+        "detalle": "Arquitectura básica de microcontroladores (ATmega328P) vs. sistemas en chip.\n Descripción del hardware Arduino Uno: Alimentación (VIN, 5V, 3.3V, GND), pines digitales, analógicos y reset.\n Instalación del Arduino IDE 2.x, configuración de puertos serie (COM) y selección de placa.\n Estructura fundamental de un programa: setup() y loop()."
+      },
+      {
+        "titulo": "Arquitectura básica de microcontroladores (ATmega328P) vs. sistemas en chip.",
+        "detalle": "Arquitectura básica de microcontroladores (ATmega328P) vs. sistemas en chip."
+      },
+      {
+        "titulo": "Descripción del hardware Arduino Uno: Alimentación (VIN, 5V, 3.3V, GND), pines digitales, analógicos y reset.",
+        "detalle": "Descripción del hardware Arduino Uno: Alimentación (VIN, 5V, 3.3V, GND), pines digitales, analógicos y reset."
+      },
+      {
+        "titulo": "Instalación del Arduino IDE 2.x, configuración de puertos serie (COM) y selección de placa.",
+        "detalle": "Instalación del Arduino IDE 2.x, configuración de puertos serie (COM) y selección de placa."
+      },
+      {
+        "titulo": "Estructura fundamental de un programa: setup() y loop().",
+        "detalle": "Estructura fundamental de un programa: setup() y loop()."
+      },
+      {
+        "titulo": "Clase 4",
+        "detalle": "Tipos de datos en C++: int, float, char, boolean, byte, long, unsigned.\n Variables y constantes: Declaración, asignación, ámbito (variables globales vs. locales) y const.\n Operadores aritméticos, relacionales y lógicos.\n Ejercicios de depuración y buenas prácticas de sintaxis (punto y coma, llaves, comentarios)."
+      },
+      {
+        "titulo": "Tipos de datos en C++: int, float, char, boolean, byte, long, unsigned.",
+        "detalle": "Tipos de datos en C++: int, float, char, boolean, byte, long, unsigned."
+      },
+      {
+        "titulo": "Variables y constantes: Declaración, asignación, ámbito (variables globales vs. locales) y const.",
+        "detalle": "Variables y constantes: Declaración, asignación, ámbito (variables globales vs. locales) y const."
+      },
+      {
+        "titulo": "Operadores aritméticos, relacionales y lógicos.",
+        "detalle": "Operadores aritméticos, relacionales y lógicos."
+      },
+      {
+        "titulo": "Ejercicios de depuración y buenas prácticas de sintaxis (punto y coma, llaves, comentarios).",
+        "detalle": "Ejercicios de depuración y buenas prácticas de sintaxis (punto y coma, llaves, comentarios)."
+      },
+      {
+        "titulo": "Unidad 3:",
+        "detalle": "ENTRADAS Y SALIDAS DIGITALES (GPIO)\n \n Clase 5\n \n Configuración de pines digitales con pinMode().\n Salida digital con digitalWrite(): Control de estados HIGH (5V) y LOW (0V).\n Entradas digitales con digitalRead(): Configuración con resistencias Pull-Up y Pull-Down externas.\n Configuración de Pull-Up interno (INPUT_PULLUP).\n \n \n Clase 6\n \n Ensamblaje físico de matriz de LEDs e indicadores luminosos.\n Detección y solución del rebote mecánico en pulsadores.\n Creación de secuencias lógicas de conmutación mediante máquinas de estado simples."
+      },
+      {
+        "titulo": "Clase 5",
+        "detalle": "Configuración de pines digitales con pinMode().\n Salida digital con digitalWrite(): Control de estados HIGH (5V) y LOW (0V).\n Entradas digitales con digitalRead(): Configuración con resistencias Pull-Up y Pull-Down externas.\n Configuración de Pull-Up interno (INPUT_PULLUP)."
+      },
+      {
+        "titulo": "Configuración de pines digitales con pinMode().",
+        "detalle": "Configuración de pines digitales con pinMode()."
+      },
+      {
+        "titulo": "Salida digital con digitalWrite(): Control de estados HIGH (5V) y LOW (0V).",
+        "detalle": "Salida digital con digitalWrite(): Control de estados HIGH (5V) y LOW (0V)."
+      },
+      {
+        "titulo": "Entradas digitales con digitalRead(): Configuración con resistencias Pull-Up y Pull-Down externas.",
+        "detalle": "Entradas digitales con digitalRead(): Configuración con resistencias Pull-Up y Pull-Down externas."
+      },
+      {
+        "titulo": "Configuración de Pull-Up interno (INPUT_PULLUP).",
+        "detalle": "Configuración de Pull-Up interno (INPUT_PULLUP)."
+      },
+      {
+        "titulo": "Clase 6",
+        "detalle": "Ensamblaje físico de matriz de LEDs e indicadores luminosos.\n Detección y solución del rebote mecánico en pulsadores.\n Creación de secuencias lógicas de conmutación mediante máquinas de estado simples."
+      },
+      {
+        "titulo": "Ensamblaje físico de matriz de LEDs e indicadores luminosos.",
+        "detalle": "Ensamblaje físico de matriz de LEDs e indicadores luminosos."
+      },
+      {
+        "titulo": "Detección y solución del rebote mecánico en pulsadores.",
+        "detalle": "Detección y solución del rebote mecánico en pulsadores."
+      },
+      {
+        "titulo": "Creación de secuencias lógicas de conmutación mediante máquinas de estado simples.",
+        "detalle": "Creación de secuencias lógicas de conmutación mediante máquinas de estado simples."
+      },
+      {
+        "titulo": "Unidad 4:",
+        "detalle": "SEÑALES ANALÓGICAS Y CONVERSIÓN ADC\n \n Clase 7\n \n Concepto de señal analógica vs. señal digital.\n El Conversor Analógico-Digital (ADC) de 10 bits en Arduino (valores de 0 a 1023).\n Lectura de voltajes con analogRead() y referencia interna de tensión.\n Acondicionamiento de entrada con potenciómetros y divisor de tensión con fotoresistor LDR.\n \n \n Clase 8\n \n Concepto de Modulación por Ancho de Pulso (PWM), Frecuencia y Ciclo de Trabajo (Duty Cycle).\n Uso de los pines PWM (~) y salida con analogWrite() (resolución de 8 bits: 0 a 255).\n Funciones matemáticas de escalado: map() y constrain().\n Aplicación: Variación de intensidad de luz (Dimmer) y control de zumbadores piezoeléctricos."
+      },
+      {
+        "titulo": "Clase 7",
+        "detalle": "Concepto de señal analógica vs. señal digital.\n El Conversor Analógico-Digital (ADC) de 10 bits en Arduino (valores de 0 a 1023).\n Lectura de voltajes con analogRead() y referencia interna de tensión.\n Acondicionamiento de entrada con potenciómetros y divisor de tensión con fotoresistor LDR."
+      },
+      {
+        "titulo": "Concepto de señal analógica vs. señal digital.",
+        "detalle": "Concepto de señal analógica vs. señal digital."
+      },
+      {
+        "titulo": "El Conversor Analógico-Digital (ADC) de 10 bits en Arduino (valores de 0 a 1023).",
+        "detalle": "El Conversor Analógico-Digital (ADC) de 10 bits en Arduino (valores de 0 a 1023)."
+      },
+      {
+        "titulo": "Lectura de voltajes con analogRead() y referencia interna de tensión.",
+        "detalle": "Lectura de voltajes con analogRead() y referencia interna de tensión."
+      },
+      {
+        "titulo": "Acondicionamiento de entrada con potenciómetros y divisor de tensión con fotoresistor LDR.",
+        "detalle": "Acondicionamiento de entrada con potenciómetros y divisor de tensión con fotoresistor LDR."
+      },
+      {
+        "titulo": "Clase 8",
+        "detalle": "Concepto de Modulación por Ancho de Pulso (PWM), Frecuencia y Ciclo de Trabajo (Duty Cycle).\n Uso de los pines PWM (~) y salida con analogWrite() (resolución de 8 bits: 0 a 255).\n Funciones matemáticas de escalado: map() y constrain().\n Aplicación: Variación de intensidad de luz (Dimmer) y control de zumbadores piezoeléctricos."
+      },
+      {
+        "titulo": "Concepto de Modulación por Ancho de Pulso (PWM), Frecuencia y Ciclo de Trabajo (Duty Cycle).",
+        "detalle": "Concepto de Modulación por Ancho de Pulso (PWM), Frecuencia y Ciclo de Trabajo (Duty Cycle)."
+      },
+      {
+        "titulo": "Uso de los pines PWM (~) y salida con analogWrite() (resolución de 8 bits: 0 a 255).",
+        "detalle": "Uso de los pines PWM (~) y salida con analogWrite() (resolución de 8 bits: 0 a 255)."
+      },
+      {
+        "titulo": "Funciones matemáticas de escalado: map() y constrain().",
+        "detalle": "Funciones matemáticas de escalado: map() y constrain()."
+      },
+      {
+        "titulo": "Aplicación: Variación de intensidad de luz (Dimmer) y control de zumbadores piezoeléctricos.",
+        "detalle": "Aplicación: Variación de intensidad de luz (Dimmer) y control de zumbadores piezoeléctricos."
+      },
+      {
+        "titulo": "Unidad 5:",
+        "detalle": "ESTRUCTURAS DE CONTROL Y COMUNICACIÓN SERIAL\n \n Clase 9\n \n Toma de decisiones: if, else if, else, y switch-case.\n Bucle iterativo: for, while, y do-while.\n Comunicación asíncrona UART: Configuración de la velocidad de baudios (Serial.begin).\n Envío y recepción de datos con la clase Serial (Serial.print, Serial.println, Serial.read).\n \n \n Clase 10\n \n Uso avanzado del Monitor Serial y Plotter Serial del Arduino IDE para graficar sensores en tiempo real.\n Creación y llamada a funciones personalizadas (modularización del programa).\n Taller práctico de resolución de errores comunes de compilación y lógica."
+      },
+      {
+        "titulo": "Clase 9",
+        "detalle": "Toma de decisiones: if, else if, else, y switch-case.\n Bucle iterativo: for, while, y do-while.\n Comunicación asíncrona UART: Configuración de la velocidad de baudios (Serial.begin).\n Envío y recepción de datos con la clase Serial (Serial.print, Serial.println, Serial.read)."
+      },
+      {
+        "titulo": "Toma de decisiones: if, else if, else, y switch-case.",
+        "detalle": "Toma de decisiones: if, else if, else, y switch-case."
+      },
+      {
+        "titulo": "Bucle iterativo: for, while, y do-while.",
+        "detalle": "Bucle iterativo: for, while, y do-while."
+      },
+      {
+        "titulo": "Comunicación asíncrona UART: Configuración de la velocidad de baudios (Serial.begin).",
+        "detalle": "Comunicación asíncrona UART: Configuración de la velocidad de baudios (Serial.begin)."
+      },
+      {
+        "titulo": "Envío y recepción de datos con la clase Serial (Serial.print, Serial.println, Serial.read).",
+        "detalle": "Envío y recepción de datos con la clase Serial (Serial.print, Serial.println, Serial.read)."
+      },
+      {
+        "titulo": "Clase 10",
+        "detalle": "Uso avanzado del Monitor Serial y Plotter Serial del Arduino IDE para graficar sensores en tiempo real.\n Creación y llamada a funciones personalizadas (modularización del programa).\n Taller práctico de resolución de errores comunes de compilación y lógica."
+      },
+      {
+        "titulo": "Uso avanzado del Monitor Serial y Plotter Serial del Arduino IDE para graficar sensores en tiempo real.",
+        "detalle": "Uso avanzado del Monitor Serial y Plotter Serial del Arduino IDE para graficar sensores en tiempo real."
+      },
+      {
+        "titulo": "Creación y llamada a funciones personalizadas (modularización del programa).",
+        "detalle": "Creación y llamada a funciones personalizadas (modularización del programa)."
+      },
+      {
+        "titulo": "Taller práctico de resolución de errores comunes de compilación y lógica.",
+        "detalle": "Taller práctico de resolución de errores comunes de compilación y lógica."
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso20.php"
+  },
+  {
+    "id": 21,
+    "nombre": "Fundamentos de Python 2 – Certified Associate Python Programmer",
+    "estado": "ABIERTO",
+    "horas": 40,
+    "modalidad": "Virtual autodidacta (Self-paced)",
+    "descripcion": "Fundamentos de Python 2 de Cisco NetAcad amplía los conocimientos del primer nivel. Profundiza en módulos, paquetes, PIP, cadenas y excepciones, programación orientada a objetos, herencia, polimorfismo y trabajo con archivos, para desarrollar programas más sólidos y modulares.",
+    "objetivos": [
+      "Aplicar manejo de excepciones para mejorar la robustez de los programas.",
+      "Utilizar estructuras de datos más avanzadas para resolver problemas.",
+      "Diseñar soluciones de programación orientada a objetos con clases, herencia y encapsulación.",
+      "Trabajar con archivos y bibliotecas de Python."
+    ],
+    "precios": {
+      "estudianteUta": 40,
+      "docenteUta": 50,
+      "publico": 60
+    },
+    "fechaCurso": "Del 16 de noviembre de 2026 al 16 de diciembre de 2026",
+    "periodoInscripcion": "Del 30 de octubre de 2026 al 15 de noviembre de 2026",
+    "requisitos": "Ninguno indicado en la planificación. Se recomienda haber cursado Fundamentos de Python 1 por la progresión de contenidos.",
+    "modulos": [
+      {
+        "titulo": "Módulo 1:",
+        "detalle": "Módulos, paquetes y PIP\n \n ¿Qué es un módulo y para qué lo necesitamos?\n Importación y uso de módulos.\n Revisión de algunos módulos útiles de Python.\n ¿Qué es un paquete y en qué se diferencia de un módulo?\n Construcción y uso de paquetes.\n PIP: La navaja suiza y el mantenimiento de paquetes."
+      },
+      {
+        "titulo": "¿Qué es un módulo y para qué lo necesitamos?",
+        "detalle": "¿Qué es un módulo y para qué lo necesitamos?"
+      },
+      {
+        "titulo": "Importación y uso de módulos.",
+        "detalle": "Importación y uso de módulos."
+      },
+      {
+        "titulo": "Revisión de algunos módulos útiles de Python.",
+        "detalle": "Revisión de algunos módulos útiles de Python."
+      },
+      {
+        "titulo": "¿Qué es un paquete y en qué se diferencia de un módulo?",
+        "detalle": "¿Qué es un paquete y en qué se diferencia de un módulo?"
+      },
+      {
+        "titulo": "Construcción y uso de paquetes.",
+        "detalle": "Construcción y uso de paquetes."
+      },
+      {
+        "titulo": "PIP: La navaja suiza y el mantenimiento de paquetes.",
+        "detalle": "PIP: La navaja suiza y el mantenimiento de paquetes."
+      },
+      {
+        "titulo": "Módulo 2:",
+        "detalle": "Caracteres, cadenas y excepciones avanzadas\n \n Caracteres, cadenas y estándares de codificación.\n Cadenas y listas: similitudes y diferencias.\n Métodos de listas.\n Métodos de cadenas.\n La forma en que Python maneja los errores en tiempo de ejecución.\n Controlar el flujo de errores usando try y except.\n La jerarquía de excepciones.\n Evaluación."
+      },
+      {
+        "titulo": "Caracteres, cadenas y estándares de codificación.",
+        "detalle": "Caracteres, cadenas y estándares de codificación."
+      },
+      {
+        "titulo": "Cadenas y listas: similitudes y diferencias.",
+        "detalle": "Cadenas y listas: similitudes y diferencias."
+      },
+      {
+        "titulo": "Métodos de listas.",
+        "detalle": "Métodos de listas."
+      },
+      {
+        "titulo": "Métodos de cadenas.",
+        "detalle": "Métodos de cadenas."
+      },
+      {
+        "titulo": "La forma en que Python maneja los errores en tiempo de ejecución.",
+        "detalle": "La forma en que Python maneja los errores en tiempo de ejecución."
+      },
+      {
+        "titulo": "Controlar el flujo de errores usando try y except.",
+        "detalle": "Controlar el flujo de errores usando try y except."
+      },
+      {
+        "titulo": "La jerarquía de excepciones.",
+        "detalle": "La jerarquía de excepciones."
+      },
+      {
+        "titulo": "Evaluación.",
+        "detalle": "Evaluación."
+      },
+      {
+        "titulo": "Módulo 3:",
+        "detalle": "Programación orientada a objetos en Python\n \n Conceptos básicos de programación orientada a objetos.\n Del enfoque procedimental al de objetos: motivaciones y beneficios.\n Clases, objetos, propiedades y métodos.\n Herencia y polimorfismo.\n Excepción como objeto."
+      },
+      {
+        "titulo": "Conceptos básicos de programación orientada a objetos.",
+        "detalle": "Conceptos básicos de programación orientada a objetos."
+      },
+      {
+        "titulo": "Del enfoque procedimental al de objetos: motivaciones y beneficios.",
+        "detalle": "Del enfoque procedimental al de objetos: motivaciones y beneficios."
+      },
+      {
+        "titulo": "Clases, objetos, propiedades y métodos.",
+        "detalle": "Clases, objetos, propiedades y métodos."
+      },
+      {
+        "titulo": "Herencia y polimorfismo.",
+        "detalle": "Herencia y polimorfismo."
+      },
+      {
+        "titulo": "Excepción como objeto.",
+        "detalle": "Excepción como objeto."
+      },
+      {
+        "titulo": "Módulo 4:",
+        "detalle": "Trabajar con archivos y utilidades\n \n Generadores, iteradores y cierres.\n Trabajar con sistemas de archivos, árboles de directorios y archivos.\n Módulos seleccionados de la biblioteca estándar de Python (os, date, datetime, calendar)."
+      },
+      {
+        "titulo": "Generadores, iteradores y cierres.",
+        "detalle": "Generadores, iteradores y cierres."
+      },
+      {
+        "titulo": "Trabajar con sistemas de archivos, árboles de directorios y archivos.",
+        "detalle": "Trabajar con sistemas de archivos, árboles de directorios y archivos."
+      },
+      {
+        "titulo": "Módulos seleccionados de la biblioteca estándar de Python (os, date, datetime, calendar).",
+        "detalle": "Módulos seleccionados de la biblioteca estándar de Python (os, date, datetime, calendar)."
+      }
+    ],
+    "url": "https://ctt-talleresfisei.uta.edu.ec/curso21.php"
+  }
+]
