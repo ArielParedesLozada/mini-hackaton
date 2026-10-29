@@ -1,14 +1,15 @@
 import { useMemo, useState, type ReactNode } from "react"
-import { ArrowUpRight, BookOpen, Check, CircleHelp, GraduationCap, Inbox, Menu, MessageSquare, Radio, RefreshCw, Sparkles, Users, X, Zap } from "lucide-react"
+import { ArrowUpRight, BookOpen, Check, CircleHelp, GraduationCap, Inbox, LayoutDashboard, Menu, MessageSquare, Radio, RefreshCw, Sparkles, Users, X, Zap } from "lucide-react"
 import { ChatPanel } from "./components/ChatPanel"
 import { ConversationList } from "./components/ConversationList"
 import { CourseCatalog, courses } from "./components/CourseCatalog"
+import { StatisticsPanel } from "./components/StatisticsPanel"
 import { useDashboard } from "./hooks/useDashboard"
 import type { ChatMessage } from "./types"
 
 export function App() {
   const data = useDashboard()
-  const [page, setPage] = useState<"inbox" | "catalog">("inbox")
+  const [page, setPage] = useState<"inbox" | "catalog" | "stats">("inbox")
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [mobileThread, setMobileThread] = useState(false)
   const [showHelp, setShowHelp] = useState(false)
@@ -37,6 +38,7 @@ export function App() {
         </a>
         <div className="workspace-picker"><span className="workspace-logo">U</span><div>CTT · FISEI</div><span className="workspace-tag">UTA</span></div>
         <nav aria-label="Navegación principal">
+          <button className={`nav-item ${page === "stats" ? "active" : ""}`} onClick={() => changePage("stats")}><LayoutDashboard size={19} /> Estadísticas</button>
           <button className={`nav-item ${page === "inbox" ? "active" : ""}`} onClick={() => changePage("inbox")}><Inbox size={19} /> Conversaciones <span className="nav-count">{ordered.length}</span></button>
           <button className={`nav-item ${page === "catalog" ? "active" : ""}`} onClick={() => changePage("catalog")}><BookOpen size={19} /> Catálogo de cursos <span className="nav-count subtle">{courses.length}</span></button>
         </nav>
@@ -44,7 +46,7 @@ export function App() {
       </aside>
       <main className="main-workspace">
         <header className="topbar">
-          <div className="breadcrumb"><button className="icon-button mobile-menu" aria-label="Abrir navegación" onClick={() => setSidebarOpen(true)}><Menu size={20} /></button><h1>{page === "inbox" ? "Conversaciones" : "Catálogo de cursos"}</h1><span className="page-count">{page === "inbox" ? ordered.length : courses.length}</span></div>
+          <div className="breadcrumb"><button className="icon-button mobile-menu" aria-label="Abrir navegación" onClick={() => setSidebarOpen(true)}><Menu size={20} /></button><h1>{page === "inbox" ? "Conversaciones" : page === "stats" ? "Estadísticas" : "Catálogo de cursos"}</h1>{page !== "stats" && <span className="page-count">{page === "inbox" ? ordered.length : courses.length}</span>}</div>
           <div className="topbar-right"><time className="today">{new Intl.DateTimeFormat("es-EC", { day: "numeric", month: "short" }).format(new Date())}</time><span className={`live-indicator ${data.connection}`}><span />{data.connection === "live" ? "En tiempo real" : data.connection === "offline" ? "Sin conexión" : "Conectando"}</span><span className="top-avatar">OP</span></div>
         </header>
         <div className="page-content">
@@ -62,7 +64,7 @@ export function App() {
               <ChatPanel key={selected?.id ?? "empty"} conversation={selected} messages={thread} busy={data.busy} loading={data.loading} onBack={() => setMobileThread(false)} onTogglePause={(paused) => selected ? data.togglePause(selected.id, paused) : Promise.resolve()} onSend={(text) => selected ? data.sendMessage(selected.id, text) : Promise.reject(new Error("Selecciona una conversación"))} />
             </section>
             <footer className="workspace-footer"><span>CTT-FISEI · Universidad Técnica de Ambato</span><span>Centro de atención</span></footer>
-          </> : <CourseCatalog />}
+          </> : page === "stats" ? <StatisticsPanel conversations={data.conversations} messages={data.messages} loading={data.loading} dataError={data.error} onOpenConversation={(id) => { setSelectedId(id); setPage("inbox"); setMobileThread(true) }} /> : <CourseCatalog />}
         </div>
       </main>
       {showHelp && <div className="modal-backdrop" onClick={() => setShowHelp(false)}><section className="help-modal" role="dialog" aria-modal="true" aria-label="Guía del operador" tabIndex={-1} onKeyDown={(event) => { if (event.key === "Escape") setShowHelp(false) }} onClick={(event) => event.stopPropagation()}><button autoFocus className="icon-button modal-close" onClick={() => setShowHelp(false)} aria-label="Cerrar guía"><X size={20} /></button><span className="modal-icon"><GraduationCap size={28} /></span><h2>Guía del operador</h2><p>El asesor responde en Telegram y resume cada conversación. Aquí puedes acompañar al prospecto en tiempo real.</p><div className="help-step"><MessageSquare size={20} /><div><strong>Escucha y entiende</strong><p>Selecciona un chat para ver su historial, estado y resumen generado por IA.</p></div></div><div className="help-step"><Users size={20} /><div><strong>Toma el control</strong><p>“Intervenir” pausa la IA. Escribir una respuesta también la pausa automáticamente; el bot la reenvía a Telegram.</p></div></div><div className="help-step"><Check size={20} /><div><strong>Devuelve el control</strong><p>Pulsa “Reanudar IA” cuando termines. Si se detecta frustración, la IA se pausa por sí sola.</p></div></div><div className="help-footnote"><Radio size={15} /> El bot debe estar ejecutándose para entregar los mensajes a Telegram.</div></section></div>}

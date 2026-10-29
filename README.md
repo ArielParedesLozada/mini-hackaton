@@ -151,6 +151,13 @@ Ejecuta `supabase/schema.sql` en el SQL Editor del proyecto. Crea las tablas
 `conversations` y `messages`, sus políticas, y las añade a la publicación
 `supabase_realtime`.
 
+Ejecuta también `supabase/sales.sql` para habilitar el registro de ventas y sus
+actualizaciones en tiempo real. Desde **Estadísticas → Registrar venta**, el
+operador confirma el curso, el prospecto y el importe pagado. El panel muestra
+ventas, ingresos, cursos más vendidos y actividad por períodos de 7 o 30 días,
+con fechas en hora de Ecuador. Un lead caliente sigue siendo una señal de interés;
+solo las inscripciones pagadas registradas se cuentan como ventas.
+
 ### 4. Catálogo de cursos
 
 `data/courses.json` ya viene versionado, así que **esto no hace falta para

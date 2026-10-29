@@ -3,7 +3,7 @@ import { lookup } from "node:dns/promises";
 import postgres from "postgres";
 
 const url = readFileSync("secrets/supabase", "utf8").trim();
-const schema = readFileSync("supabase/schema.sql", "utf8");
+const schema = readFileSync(process.argv[2] ?? "supabase/schema.sql", "utf8");
 const parsed = new URL(url);
 const { address } = await lookup(parsed.hostname, { family: 4 });
 const sql = postgres({
@@ -25,7 +25,7 @@ try {
   const tables = await sql`
     select tablename from pg_publication_tables
     where pubname = 'supabase_realtime'
-      and tablename in ('conversations', 'messages')
+      and tablename in ('conversations', 'messages', 'sales')
     order by tablename
   `;
   console.log("schema ok; realtime:", tables.map((t) => t.tablename).join(", "));
