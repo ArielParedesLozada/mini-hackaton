@@ -14,6 +14,7 @@ export function ChatPanel(props: {
 }) {
   const [draft, setDraft] = useState("")
   const [showDetails, setShowDetails] = useState(false)
+  const [showSummary, setShowSummary] = useState(false)
   const [localError, setLocalError] = useState("")
   const bottom = useRef<HTMLDivElement>(null)
   const c = props.conversation
@@ -35,8 +36,10 @@ export function ChatPanel(props: {
   }
   return <div className={`chat-and-details ${showDetails ? "details-open" : ""}`}>
     <section className="chat-panel" aria-label={`Conversación con ${c.nombre || "Prospecto"}`}>
-      <header className="chat-header"><button className="icon-button back-button" onClick={props.onBack} aria-label="Volver a la bandeja"><ArrowLeft size={18} /></button><span className={`avatar avatar-${state.color}`}>{initials(c.nombre)}</span><div className="chat-heading"><h2>{c.nombre || "Prospecto"} <span className="telegram-small">➤</span></h2><span><span className="tiny-dot" /> Conversación de Telegram</span></div><div className="chat-actions"><span className={`control-status ${c.ai_paused ? "human" : ""}`}>{c.ai_paused ? <Users size={14} /> : <Sparkles size={14} />}{c.ai_paused ? "Operador al mando" : "Asesor IA activo"}</span><button className="icon-button info-button" onClick={() => setShowDetails(!showDetails)} aria-label="Ver información del prospecto" aria-expanded={showDetails}><Info size={19} /></button></div></header>
-      <div className="ai-summary"><span className="summary-icon"><Sparkles size={16} /></span><div><strong>Resumen de la conversación</strong><p>{c.resumen || "El resumen aparecerá después de la primera respuesta del asesor."}</p></div></div>
+      <header className="chat-header"><button className="icon-button back-button" onClick={props.onBack} aria-label="Volver a la bandeja"><ArrowLeft size={18} /></button><span className={`avatar avatar-${state.color}`}>{initials(c.nombre)}</span><div className="chat-heading"><h2>{c.nombre || "Prospecto"} <span className="telegram-small">➤</span></h2><span><span className="tiny-dot" /> Conversación de Telegram</span></div><div className="chat-actions"><button type="button" className="summary-toggle" aria-label={showSummary ? "Ocultar resumen" : "Mostrar resumen"} aria-expanded={showSummary} aria-controls={`summary-${c.id}`} onClick={() => setShowSummary(!showSummary)}><Sparkles size={13} /><span>Resumen</span><ChevronDown size={12} className={showSummary ? "summary-chevron expanded" : "summary-chevron"} /></button><span className={`control-status ${c.ai_paused ? "human" : ""}`}>{c.ai_paused ? <Users size={14} /> : <Sparkles size={14} />}{c.ai_paused ? "Operador al mando" : "Asesor IA activo"}</span><button className="icon-button info-button" onClick={() => setShowDetails(!showDetails)} aria-label="Ver información del prospecto" aria-expanded={showDetails}><Info size={19} /></button></div></header>
+      <div className="ai-summary" hidden={!showSummary}>
+        <p id={`summary-${c.id}`}>{c.resumen || "El resumen aparecerá después de la primera respuesta del asesor."}</p>
+      </div>
       {c.alerta_inyeccion && <div className="injection-banner"><ShieldAlert size={16} /><span>Se detectó un intento de manipulación en esta conversación.</span></div>}
       <div className="message-history" role="log" aria-label="Historial de mensajes" aria-live="polite">
         <div className="conversation-start"><ShieldAlert size={12} /> Inicio de la conversación con CTT-FISEI</div>
