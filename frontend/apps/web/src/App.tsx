@@ -1,5 +1,5 @@
 import { useMemo, useState, type ReactNode } from "react"
-import { ArrowUpRight, BookOpen, Check, ChevronRight, CircleHelp, GraduationCap, Inbox, Menu, MessageSquare, Radio, RefreshCw, ShieldCheck, Sparkles, Users, X, Zap } from "lucide-react"
+import { ArrowUpRight, BookOpen, Check, CircleHelp, GraduationCap, Inbox, Menu, MessageSquare, Radio, RefreshCw, Sparkles, Users, X, Zap } from "lucide-react"
 import { ChatPanel } from "./components/ChatPanel"
 import { ConversationList } from "./components/ConversationList"
 import { CourseCatalog, courses } from "./components/CourseCatalog"
@@ -33,21 +33,21 @@ export function App() {
       {sidebarOpen && <button className="nav-backdrop" aria-label="Cerrar navegación" onClick={() => setSidebarOpen(false)} />}
       <aside className="sidebar">
         <a className="brand" href="#" onClick={(event) => { event.preventDefault(); changePage("inbox") }} aria-label="CTT Connect, inicio">
-          <span className="brand-mark"><GraduationCap size={23} /></span><span>ctt<span className="brand-light">connect</span><small>FISEI · UNIVERSIDAD TÉCNICA DE AMBATO</small></span>
+          <span className="brand-mark"><GraduationCap size={23} /></span><span>ctt<span className="brand-light">connect</span></span>
         </a>
-        <div className="workspace-picker"><span className="workspace-logo">C</span><div>Centro de capacitación<small>Espacio de trabajo · UTA</small></div><ChevronRight size={15} /></div>
-        <span className="nav-label">CENTRO DE OPERACIONES</span>
+        <div className="workspace-picker"><span className="workspace-logo">U</span><div>CTT · FISEI</div><span className="workspace-tag">UTA</span></div>
         <nav aria-label="Navegación principal">
           <button className={`nav-item ${page === "inbox" ? "active" : ""}`} onClick={() => changePage("inbox")}><Inbox size={19} /> Conversaciones <span className="nav-count">{ordered.length}</span></button>
           <button className={`nav-item ${page === "catalog" ? "active" : ""}`} onClick={() => changePage("catalog")}><BookOpen size={19} /> Catálogo de cursos <span className="nav-count subtle">{courses.length}</span></button>
         </nav>
-        <div className="sidebar-note"><span className="small-icon"><Sparkles size={17} /></span><strong>IA y personas, en equipo.</strong><p>Tu asesor atiende. Tú conectas con las personas cuando más lo necesitan.</p><span className="note-line" /></div>
         <div className="sidebar-bottom"><button className="nav-item" onClick={() => setShowHelp(true)}><CircleHelp size={18} /> Guía del operador <ArrowUpRight size={14} /></button><div className="operator"><span className="operator-avatar">OP<span /></span><div>Operador CTT<small>Equipo de admisiones</small></div><span className="operator-role">ADMIN</span></div></div>
       </aside>
       <main className="main-workspace">
-        <header className="topbar"><div className="breadcrumb"><button className="icon-button mobile-menu" aria-label="Abrir navegación" onClick={() => setSidebarOpen(true)}><Menu size={20} /></button><span>Espacio de trabajo</span><ChevronRight size={13} /><strong>{page === "inbox" ? "Conversaciones" : "Catálogo de cursos"}</strong></div><div className="topbar-right"><span className={`live-indicator ${data.connection}`}><span />{data.connection === "live" ? "En tiempo real" : data.connection === "offline" ? "Sin conexión" : "Conectando"}</span><span className="topbar-divider" /><span className="top-avatar">OP</span></div></header>
+        <header className="topbar">
+          <div className="breadcrumb"><button className="icon-button mobile-menu" aria-label="Abrir navegación" onClick={() => setSidebarOpen(true)}><Menu size={20} /></button><h1>{page === "inbox" ? "Conversaciones" : "Catálogo de cursos"}</h1><span className="page-count">{page === "inbox" ? ordered.length : courses.length}</span></div>
+          <div className="topbar-right"><time className="today">{new Intl.DateTimeFormat("es-EC", { day: "numeric", month: "short" }).format(new Date())}</time><span className={`live-indicator ${data.connection}`}><span />{data.connection === "live" ? "En tiempo real" : data.connection === "offline" ? "Sin conexión" : "Conectando"}</span><span className="top-avatar">OP</span></div>
+        </header>
         <div className="page-content">
-          <section className="page-heading"><div><div className="eyebrow"><span /> CTT-FISEI · CENTRO DE OPERACIONES</div><h1>{page === "inbox" ? "Cada conversación, una oportunidad." : "Conocimiento que abre puertas."}</h1><p>{page === "inbox" ? "Acompaña a tus prospectos. Conecta en el momento indicado." : "Toda la oferta del CTT, con la información real de cada capacitación."}</p></div><div className="heading-aside"><span className="today">{new Intl.DateTimeFormat("es-EC", { day: "numeric", month: "long", year: "numeric" }).format(new Date())}</span><span className="source-label"><ShieldCheck size={13} /> {page === "inbox" ? "Datos de Supabase" : "Catálogo oficial UTA"}</span></div></section>
           {page === "inbox" ? <>
             <section className="metrics" aria-label="Indicadores de conversaciones">
               <Metric title="Conversaciones" value={ordered.length} detail="Prospectos en el centro" icon={<MessageSquare size={19} />} color="teal" />
@@ -61,14 +61,14 @@ export function App() {
               <ConversationList conversations={ordered} lastMessages={lastMessages} selectedId={selected?.id ?? null} loading={data.loading} onSelect={(id) => { setSelectedId(id); setMobileThread(true) }} />
               <ChatPanel key={selected?.id ?? "empty"} conversation={selected} messages={thread} busy={data.busy} loading={data.loading} onBack={() => setMobileThread(false)} onTogglePause={(paused) => selected ? data.togglePause(selected.id, paused) : Promise.resolve()} onSend={(text) => selected ? data.sendMessage(selected.id, text) : Promise.reject(new Error("Selecciona una conversación"))} />
             </section>
-            <footer className="workspace-footer"><span><ShieldCheck size={13} /> Conexión directa a Supabase · Telegram conserva la identidad del asesor</span><span>CTT Connect <span className="footer-dot">·</span> Hecho para conectar.</span></footer>
+            <footer className="workspace-footer"><span>CTT-FISEI · Universidad Técnica de Ambato</span><span>Centro de atención</span></footer>
           </> : <CourseCatalog />}
         </div>
       </main>
-      {showHelp && <div className="modal-backdrop" onClick={() => setShowHelp(false)}><section className="help-modal" role="dialog" aria-modal="true" aria-label="Guía del operador" tabIndex={-1} onKeyDown={(event) => { if (event.key === "Escape") setShowHelp(false) }} onClick={(event) => event.stopPropagation()}><button autoFocus className="icon-button modal-close" onClick={() => setShowHelp(false)} aria-label="Cerrar guía"><X size={20} /></button><span className="modal-icon"><GraduationCap size={28} /></span><div className="eyebrow">TU CENTRO DE OPERACIONES</div><h2>La atención sigue contigo.</h2><p>El asesor responde en Telegram y resume cada conversación. Aquí puedes acompañar al prospecto en tiempo real.</p><div className="help-step"><MessageSquare size={20} /><div><strong>Escucha y entiende</strong><p>Selecciona un chat para ver su historial, estado y resumen generado por IA.</p></div></div><div className="help-step"><Users size={20} /><div><strong>Toma el control</strong><p>“Intervenir” pausa la IA. Escribir una respuesta también la pausa automáticamente; el bot la reenvía a Telegram.</p></div></div><div className="help-step"><Check size={20} /><div><strong>Devuelve el control</strong><p>Pulsa “Reanudar IA” cuando termines. Si se detecta frustración, la IA se pausa por sí sola.</p></div></div><div className="help-footnote"><Radio size={15} /> El bot debe estar ejecutándose para entregar los mensajes a Telegram.</div></section></div>}
+      {showHelp && <div className="modal-backdrop" onClick={() => setShowHelp(false)}><section className="help-modal" role="dialog" aria-modal="true" aria-label="Guía del operador" tabIndex={-1} onKeyDown={(event) => { if (event.key === "Escape") setShowHelp(false) }} onClick={(event) => event.stopPropagation()}><button autoFocus className="icon-button modal-close" onClick={() => setShowHelp(false)} aria-label="Cerrar guía"><X size={20} /></button><span className="modal-icon"><GraduationCap size={28} /></span><h2>Guía del operador</h2><p>El asesor responde en Telegram y resume cada conversación. Aquí puedes acompañar al prospecto en tiempo real.</p><div className="help-step"><MessageSquare size={20} /><div><strong>Escucha y entiende</strong><p>Selecciona un chat para ver su historial, estado y resumen generado por IA.</p></div></div><div className="help-step"><Users size={20} /><div><strong>Toma el control</strong><p>“Intervenir” pausa la IA. Escribir una respuesta también la pausa automáticamente; el bot la reenvía a Telegram.</p></div></div><div className="help-step"><Check size={20} /><div><strong>Devuelve el control</strong><p>Pulsa “Reanudar IA” cuando termines. Si se detecta frustración, la IA se pausa por sí sola.</p></div></div><div className="help-footnote"><Radio size={15} /> El bot debe estar ejecutándose para entregar los mensajes a Telegram.</div></section></div>}
     </div>
   )
 }
 function Metric({ title, value, detail, icon, color }: { title: string; value: number | string; detail: string; icon: ReactNode; color: string }) {
-  return <article className="metric"><div className="metric-top"><span>{title}</span><span className={`metric-icon ${color}`}>{icon}</span></div><strong className="metric-value">{value}</strong><span className="metric-detail">{detail}</span></article>
+  return <article className={`metric metric-${color}`} title={detail}><span className={`metric-icon ${color}`}>{icon}</span><div className="metric-copy"><span>{title}</span><strong className="metric-value">{value}</strong></div></article>
 }

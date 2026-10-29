@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
     "@supabase/supabase-js": "^2.118.0",
     "@workspace/ui": "*",
     "lucide-react": "^1.64.0",
